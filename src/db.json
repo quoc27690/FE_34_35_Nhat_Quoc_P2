@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "name": "Lâm Anh Quốc",
+      "phone": "0972093127",
+      "region": "Đà Nẵng",
+      "birthday": "27-06-1990",
+      "gender": "Male"
+    }
+  ],
+
+  "slides": [
+    {
+      "id": 1,
+      "image": "https://galaxycine.vn/media/2020/9/15/2_1600174573834.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://galaxycine.vn/media/2020/9/21/banner-2048x682_1600679436170.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://galaxycine.vn/media/2020/9/9/banner-2048x682_1599634539410.jpg"
+    }
+  ],
+
+  "movies": [
+    {
+      "id": 1,
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "18/9/2020"
+    },
+    {
+      "id": 2,
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "18/9/2020"
+    },
+    {
+      "id": 3,
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "18/9/2020"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id": 1,
+      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
+      "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
+    },
+    {
+      "id": 2,
+      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
+      "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
+    },
+    {
+      "id": 3,
+      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
+      "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
+    }
+  ],
+
+  "promotion": [
+    {
+      "id": 1,
+      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
+      "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
+    },
+    {
+      "id": 2,
+      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
+      "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
+    },
+    {
+      "id": 3,
+      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
+      "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
+    }
+  ],
+
+  "combo": [
+    {
+      "id": 1,
+      "image": "https://www.galaxycine.vn/media/2020/5/19/combo-1_1589871759174.jpg",
+      "name": "1 ly nước, 1 bắp",
+      "price": 77000
+    },
+    {
+      "id": 2,
+      "image": "https://www.galaxycine.vn/media/2020/5/19/combo-2_1589871763789.jpg",
+      "name": "2 ly nước, 1 bắp",
+      "price": 97000
+    }
+  ],
+
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Galaxy 1",
+      "session": [
+        {
+          "id": 1,
+          "time": "10:00"
+        },
+        {
+          "id": 2,
+          "time": "11:00"
+        },
+        {
+          "id": 3,
+          "time": "12:00"
+        }
+      ],
+      "seats": [
+        {
+          "id": 1,
+          "codeSeat": "A01",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 2,
+          "codeSeat": "A02",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 3,
+          "codeSeat": "A03",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 4,
+          "codeSeat": "A04",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 5,
+          "codeSeat": "A05",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 6,
+          "codeSeat": "A06",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 7,
+          "codeSeat": "A07",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 8,
+          "codeSeat": "A08",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 9,
+          "codeSeat": "A09",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "id": 10,
+          "codeSeat": "A10",
+          "price": 75000,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Galaxy 2",
+      "session": [
+        {
+          "id": 1,
+          "time": "10:00"
+        },
+        {
+          "id": 2,
+          "time": "11:00"
+        },
+        {
+          "id": 3,
+          "time": "12:00"
+        }
+      ],
+      "seats": [
+        {
+          "codeSeat": "A01",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A02",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A03",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A04",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A05",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A06",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A07",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A08",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A09",
+          "price": 75000,
+          "status": false
+        },
+        {
+          "codeSeat": "A10",
+          "price": 75000,
+          "status": false
+        }
+      ]
+    }
+  ],
+
+  "payment": [
+    {
+      "id": 1,
+      "name": "Visa"
+    },
+    {
+      "id": 2,
+      "name": "Cash"
+    }
+  ],
+
+  "tickets": [
+    {
+      "id": 1,
+      "email": "quoc27690@gmail.com",
+      "movieImage": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "movieName": "Xứ sở phép thuật",
+      "movieCinema": "Galaxy 1",
+      "movieTime": "20:00",
+      "timeSet": "2019-08-05",
+      "count": 1,
+      "combo": ["1 ly nước, 1 bắp"],
+      "seats": ["A01"],
+      "total": 100000,
+      "payment": "Visa"
+    }
+  ]
+}

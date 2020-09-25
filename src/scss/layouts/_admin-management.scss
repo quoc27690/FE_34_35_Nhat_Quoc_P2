@@ -1,0 +1,42 @@
+.admin-users-management,
+.admin-revenue-management,
+.admin-movies-management,
+.admin-tickets-management {
+  display: flex;
+  justify-content: center;
+
+  table {
+    width: 90%;
+    @include mt-mb(20px, 0);
+    border-collapse: collapse;
+
+    tr {
+      th {
+        background-color: $color-admin-slide-bar;
+        @include pt-pb(10px, 10px);
+        @include pl-pr(10px, 10px);
+        border: 1px solid $color-black;
+        color: $color-white;
+      }
+
+      td {
+        @include pt-pb(10px, 10px);
+        text-align: center;
+        border: 1px solid $color-black;
+
+        img {
+          width: 80px;
+          height: 60px;
+          @include pl-pr(10px, 10px);
+          object-fit: cover;
+          border-radius: 50%;
+        }
+
+        div {
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+}

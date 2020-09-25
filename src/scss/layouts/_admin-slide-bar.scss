@@ -1,0 +1,15 @@
+.admin-slide-bar {
+  background-color: $color-admin-slide-bar;
+  height: 100vh;
+
+  ul {
+    li {
+      @include ml-mr(15px, 0);
+      @include pt-pb(20px, 0);
+
+      a {
+        color: $color-white;
+      }
+    }
+  }
+}
