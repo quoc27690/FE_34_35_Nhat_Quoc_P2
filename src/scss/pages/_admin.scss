@@ -1,0 +1,11 @@
+.admin {
+  display: flex;
+
+  &__left {
+    flex-basis: 15%;
+  }
+
+  &__right {
+    flex-grow: 1;
+  }
+}
