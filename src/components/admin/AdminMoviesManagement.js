@@ -1,17 +1,40 @@
 import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
-import { ADMIN_MOVIES_MANAGEMENT } from "../../constants/adminManagement";
+import { useHistory } from "react-router-dom";
 import { getMovies } from "../../redux/slice/adminMoviesManagementSlice";
-import AdminEdit from "./AdminEdit";
+import AdminAction from "./AdminAction";
 
 export default function AdminMoviesManagement() {
+  const { t } = useTranslation("common");
+
   const dispatch = useDispatch();
+
+  const history = useHistory();
 
   const { movies, loading, error } = useSelector((state) => state.movies);
 
   useEffect(() => {
     dispatch(getMovies());
   }, [dispatch]);
+
+  const ADMIN_MOVIES_MANAGEMENT = [
+    t("admin.id"),
+    t("admin.image"),
+    t("admin.name"),
+    t("admin.ratings"),
+    t("admin.time"),
+    t("admin.producer"),
+    t("admin.type"),
+    t("admin.actor"),
+    t("admin.releaseDate"),
+    t("admin.action"),
+  ];
+
+  const handleAddMovie = (params) => {
+    const addMovieUrl = `/admin/moviesManagement/add`;
+    history.push(addMovieUrl);
+  };
 
   return (
     <div>
@@ -21,6 +44,12 @@ export default function AdminMoviesManagement() {
         <p>{error.message}</p>
       ) : (
         <div className="admin-movies-management">
+          <button
+            className="admin-movies-management__add-user"
+            onClick={handleAddMovie}
+          >
+            {t("admin.addMovie")}
+          </button>
           <table>
             <thead>
               <tr>
@@ -44,7 +73,7 @@ export default function AdminMoviesManagement() {
                   <td>{e.actor}</td>
                   <td>{e.releaseDate}</td>
                   <td>
-                    <AdminEdit />
+                    <AdminAction movieId={e.id} />
                   </td>
                 </tr>
               ))}

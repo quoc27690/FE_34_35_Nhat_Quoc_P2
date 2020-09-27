@@ -32,11 +32,65 @@
           border-radius: 50%;
         }
 
-        div {
+        .admin-action {
           display: flex;
           justify-content: space-around;
+
+          &--edit {
+            color: $color-btn-warning;
+            border-color: $color-btn-warning;
+          }
+
+          &--remove {
+            color: $color-btn-danger;
+            border-color: $color-btn-danger;
+          }
         }
       }
+    }
+  }
+}
+
+.admin-users-management,
+.admin-movies-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__add-user,
+  &__add-movie {
+    @include mt-mb(15px, 0);
+    color: $color-btn-primary;
+    border-color: $color-btn-primary;
+  }
+}
+
+.admin-user-add-edit,
+.admin-movie-add-edit {
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    label {
+      @include mt-mb(15px, 0);
+    }
+
+    input,
+    select {
+      height: 30px;
+      @include pl-pr(10px, 10px);
+      border: 1px solid $color-black;
+      @include mt-mb(15px, 0);
+    }
+
+    .submit {
+      @include mt-mb(30px, 0);
+      color: $color-btn-info;
+      border-color: $color-btn-info;
     }
   }
 }

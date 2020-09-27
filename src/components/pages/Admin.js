@@ -2,6 +2,7 @@ import React from "react";
 import AdminSlideBar from "../partials/AdminSlideBar";
 import { Switch, Route } from "react-router-dom";
 import routers from "../../routers";
+import HeaderTopBar from "../partials/HeaderTopBar";
 
 export default function Admin() {
   const showContent = (routers) => {
@@ -11,12 +12,15 @@ export default function Admin() {
   };
 
   return (
-    <div className="admin">
-      <div className="admin__left">
-        <AdminSlideBar></AdminSlideBar>
-      </div>
-      <div className="admin__right">
-        <Switch>{showContent(routers)}</Switch>
+    <div>
+      <HeaderTopBar />
+      <div className="admin">
+        <div className="admin__left">
+          <AdminSlideBar></AdminSlideBar>
+        </div>
+        <div className="admin__right">
+          <Switch>{showContent(routers)}</Switch>
+        </div>
       </div>
     </div>
   );

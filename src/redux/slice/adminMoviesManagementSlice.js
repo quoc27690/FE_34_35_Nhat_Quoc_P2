@@ -13,7 +13,23 @@ const adminMoviesManagementSlice = createSlice({
     loading: false,
     error: "",
   },
-  reducers: {},
+  reducers: {
+    addMovie: (state, action) => {
+      const newMovie = action.payload;
+      state.movies.push(newMovie);
+    },
+    removeMovie: (state, action) => {
+      const removeMoveId = action.payload;
+      state.movies = state.movies.filter((e) => e.id !== removeMoveId);
+    },
+    updateMovie: (state, action) => {
+      const newMovie = action.payload;
+      const newMovieIndex = state.movies.findIndex((e) => e.id === newMovie.id);
+      if (newMovieIndex >= 0) {
+        state.movies[newMovieIndex] = newMovie;
+      }
+    },
+  },
   extraReducers: {
     [getMovies.pending]: (state) => {
       state.loading = true;
@@ -32,5 +48,5 @@ const adminMoviesManagementSlice = createSlice({
 });
 
 const { reducer: moviesReducer, actions } = adminMoviesManagementSlice;
-export const { getUser } = actions;
+export const { addMovie, removeMovie, updateMovie } = actions;
 export default moviesReducer;

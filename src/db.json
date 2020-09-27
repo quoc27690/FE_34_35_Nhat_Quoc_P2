@@ -1,17 +1,26 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "admin@gmail.com",
-      "password": "123456",
-      "name": "Lâm Anh Quốc",
-      "phone": "0972093127",
-      "region": "Đà Nẵng",
-      "birthday": "27-06-1990",
-      "gender": "Male"
+      "name": "thao",
+      "email": "quoc27690@gmail.com",
+      "password": "123",
+      "phone": "098123456",
+      "region": "Da Nang",
+      "birthday": "2020-09-24",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "name": "LAM ANH QUOC",
+      "email": "QUOC27690@GMAIL.COM",
+      "password": "123",
+      "phone": "0772548486",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-23",
+      "gender": "male",
+      "id": 3
     }
   ],
-
   "slides": [
     {
       "id": 1,
@@ -26,43 +35,19 @@
       "image": "https://galaxycine.vn/media/2020/9/9/banner-2048x682_1599634539410.jpg"
     }
   ],
-
   "movies": [
     {
-      "id": 1,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
       "name": "Xứ sở phép thuật",
-      "ratings": 5,
-      "time": 97,
+      "ratings": "51",
+      "time": "97",
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "18/9/2020"
-    },
-    {
-      "id": 2,
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "Xứ sở phép thuật",
-      "ratings": 5,
-      "time": 97,
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "18/9/2020"
-    },
-    {
-      "id": 3,
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "Xứ sở phép thuật",
-      "ratings": 5,
-      "time": 97,
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "18/9/2020"
+      "releaseDate": "2020-09-08",
+      "id": 1
     }
   ],
-
   "blogs": [
     {
       "id": 1,
@@ -83,7 +68,6 @@
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     }
   ],
-
   "promotion": [
     {
       "id": 1,
@@ -104,7 +88,6 @@
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     }
   ],
-
   "combo": [
     {
       "id": 1,
@@ -119,7 +102,6 @@
       "price": 97000
     }
   ],
-
   "cinemas": [
     {
       "id": 1,
@@ -272,7 +254,6 @@
       ]
     }
   ],
-
   "payment": [
     {
       "id": 1,
@@ -283,7 +264,6 @@
       "name": "Cash"
     }
   ],
-
   "tickets": [
     {
       "id": 1,
@@ -294,8 +274,30 @@
       "movieTime": "20:00",
       "timeSet": "2019-08-05",
       "count": 1,
-      "combo": ["1 ly nước, 1 bắp"],
-      "seats": ["A01"],
+      "combo": [
+        "1 ly nước, 1 bắp"
+      ],
+      "seats": [
+        "A01"
+      ],
+      "total": 100000,
+      "payment": "Visa"
+    },
+    {
+      "id": 2,
+      "email": "quoc27690@gmail.com",
+      "movieImage": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "movieName": "Xứ sở phép thuật",
+      "movieCinema": "Galaxy 1",
+      "movieTime": "20:00",
+      "timeSet": "2019-08-05",
+      "count": 1,
+      "combo": [
+        "1 ly nước, 1 bắp"
+      ],
+      "seats": [
+        "A01"
+      ],
       "total": 100000,
       "payment": "Visa"
     }

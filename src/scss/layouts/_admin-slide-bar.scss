@@ -1,11 +1,16 @@
 .admin-slide-bar {
   background-color: $color-admin-slide-bar;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 
   ul {
     li {
       @include ml-mr(15px, 0);
       @include pt-pb(20px, 0);
+
+      .active {
+        font-weight: bold;
+      }
 
       a {
         color: $color-white;

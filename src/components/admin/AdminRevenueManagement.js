@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
-import { ADMIN_REVENUE_MANAGEMENT } from "../../constants/adminManagement";
 import { getTickets } from "../../redux/slice/adminTicketsManagementSlice";
-import AdminEdit from "./AdminEdit";
 
 export default function AdminRevenueManagement() {
+  const { t } = useTranslation("common");
+
   const dispatch = useDispatch();
 
   const { tickets, loading, error } = useSelector((state) => state.tickets);
@@ -12,6 +13,14 @@ export default function AdminRevenueManagement() {
   useEffect(() => {
     dispatch(getTickets());
   }, [dispatch]);
+
+  const ADMIN_REVENUE_MANAGEMENT = [
+    t("admin.id"),
+    t("admin.dayBuy"),
+    t("admin.movieMoney"),
+    t("admin.movieFood"),
+    t("admin.total"),
+  ];
 
   return (
     <div>
@@ -37,9 +46,6 @@ export default function AdminRevenueManagement() {
                   <td>{e.movieName}</td>
                   <td>{e.movieCinema}</td>
                   <td>{e.total}</td>
-                  <td>
-                    <AdminEdit />
-                  </td>
                 </tr>
               ))}
             </tbody>

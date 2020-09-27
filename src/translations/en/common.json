@@ -1,0 +1,50 @@
+{
+  "admin": {
+    "usersManagement": "Users Management",
+    "moviesManagement": "Movies Management",
+    "revenueManagement": "Revenue Management",
+    "ticketsManagement": "Tickets Management",
+
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "addMovie": "Add Movie",
+    "editMovie": "Edit Movie",
+
+    "id": "Id",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "region": "Region",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "action": "Action",
+    "image": "Image",
+    "ratings": "Ratings",
+    "time": "Time",
+    "producer": "Producer",
+    "type": "Type",
+    "actor": "Actor",
+    "releaseDate": "ReleaseDate",
+    "dayBuy": "Day Buy",
+    "movieMoney": "Movie Money",
+    "movieFood": "Movie Food",
+    "total": "Total",
+    "movieName": "Movie Name",
+    "movieCinema": "Movie Cinema",
+    "timeSet": "Time Set",
+    "edit": "Edit",
+    "remove": "Remove",
+
+    "confirmUser": "Are you sure remove this user?",
+    "confirmMovie": "Are you sure remove this movie?",
+    "confirmTicket": "Are you sure remove this ticket?",
+
+    "male": "Male",
+    "female": "Female",
+
+    "hcm": "Ho Chi Minh",
+    "hn": "Ha Noi",
+    "dn": "Da Nang"
+  }
+}
