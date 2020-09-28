@@ -6,6 +6,11 @@ const moviesApi = {
     return axiosClient.get(url);
   },
 
+  getMovieSearch: (searchMovie) => {
+    const url = `/movies?q=${searchMovie}`;
+    return axiosClient.get(url);
+  },
+
   postMovie: (newMovie) => {
     const url = `/movies`;
     return axiosClient.post(url, newMovie);

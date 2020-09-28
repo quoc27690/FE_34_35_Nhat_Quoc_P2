@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import usersApi from "../../api/usersApi";
+import authApi from "../../api/authApi";
 import {
   getAll,
   getBirthday,
@@ -13,7 +13,6 @@ import {
   getPhone,
   getRegion,
 } from "../../redux/slice/adminUserAddEditSlice";
-import { postUser } from "../../redux/slice/adminUsersManagementSlice";
 
 export default function Register() {
   const { t } = useTranslation("common");
@@ -30,7 +29,7 @@ export default function Register() {
     region,
     birthday,
     gender,
-  } = useSelector((state) => state.userAddEdit);
+  } = useSelector((state) => state.register);
 
   useEffect(() => {
     const emptyUser = {
@@ -45,7 +44,7 @@ export default function Register() {
     dispatch(getAll(emptyUser));
   }, [dispatch]);
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
     const newUser = {
       name,
@@ -56,9 +55,14 @@ export default function Register() {
       birthday,
       gender,
     };
-    console.log(newUser);
-    usersApi.postUser(newUser);
-    history.push("/login");
+    const res = await authApi.postUserRegister(newUser);
+
+    if (res.length) {
+      alert(res);
+    } else {
+      alert("Register Success");
+      history.push("/login");
+    }
   };
 
   return (

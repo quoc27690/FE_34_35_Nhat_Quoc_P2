@@ -50,6 +50,11 @@
 
   "authentication": {
     "login": "Đăng nhập",
-    "register": "Đăng ký"
+    "register": "Đăng ký",
+    "logout": "Đăng Xuất"
+  },
+
+  "headerTopBar": {
+    "search": "Tìm kiếm phim..."
   }
 }

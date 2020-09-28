@@ -4,6 +4,9 @@ import moviesReducer from "./slice/adminMoviesManagementSlice";
 import ticketsReducer from "./slice/adminTicketsManagementSlice";
 import userAddEditReducer from "./slice/adminUserAddEditSlice";
 import usersReducer from "./slice/adminUsersManagementSlice";
+import loginReducer from "./slice/loginSlice";
+import registerReducer from "./slice/registerSlice";
+import searchMovieReducer from "./slice/searchMovieSlice";
 
 const store = configureStore({
   reducer: {
@@ -12,6 +15,9 @@ const store = configureStore({
     tickets: ticketsReducer,
     userAddEdit: userAddEditReducer,
     movieAddEdit: movieAddEditReducer,
+    register: registerReducer,
+    login: loginReducer,
+    searchMovie: searchMovieReducer,
   },
 });
 

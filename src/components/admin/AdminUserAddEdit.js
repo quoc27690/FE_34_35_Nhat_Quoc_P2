@@ -13,10 +13,6 @@ import {
   getPhone,
   getRegion,
 } from "../../redux/slice/adminUserAddEditSlice";
-import {
-  addUser,
-  updateUser,
-} from "../../redux/slice/adminUsersManagementSlice";
 
 export default function AdminUserAddEdit() {
   const { t } = useTranslation("common");
@@ -71,14 +67,17 @@ export default function AdminUserAddEdit() {
     };
 
     if (!userId) {
-      dispatch(addUser(newUser));
-      await usersApi.postUser(newUser);
+      const res = await usersApi.postUser(newUser);
+      if (res.length) {
+        alert(res);
+      } else {
+        alert("Register Success");
+        history.push("/admin/usersManagement");
+      }
     } else {
-      dispatch(updateUser(newUser));
       await usersApi.putUser(userId, newUser);
+      history.push("/admin/usersManagement");
     }
-
-    history.push("/admin/usersManagement");
   };
 
   return (
