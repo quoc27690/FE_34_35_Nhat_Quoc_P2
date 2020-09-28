@@ -1,0 +1,50 @@
+{
+  "admin": {
+    "usersManagement": "Quản lý tài khoản",
+    "moviesManagement": "Quản lý phim",
+    "revenueManagement": "Quản lý doanh thu",
+    "ticketsManagement": "Quản lý vé",
+
+    "addUser": "Thêm tài khoản",
+    "editUser": "Sửa tài khoản",
+    "addMovie": "Thêm phim",
+    "editMovie": "Sửa phim",
+
+    "id": "Id",
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "phone": "Số điện thoại",
+    "region": "Khu vực",
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "action": "Hành động",
+    "image": "Hình ảnh",
+    "ratings": "Xếp hạng",
+    "time": "Thời lượng",
+    "producer": "Nhà sản xuất",
+    "type": "Thể loại",
+    "actor": "Diễn viên",
+    "releaseDate": "Ngày công chiếu",
+    "dayBuy": "Ngày mua",
+    "movieMoney": "Tiền phim",
+    "movieFood": "Tiền thức ăn",
+    "total": "Tổng",
+    "movieName": "Tên phim",
+    "movieCinema": "Tên rạp",
+    "timeSet": "Thời gian đặt",
+    "edit": "Sửa",
+    "remove": "Xóa",
+
+    "confirmUser": "Bạn có chắc muốn xóa tài khoản này?",
+    "confirmMovie": "Bạn có chắc muốn xóa phim này?",
+    "confirmTicket": "Bạn có chắc muốn xóa vé này?",
+
+    "male": "Nam",
+    "female": "Nữ",
+
+    "hcm": "Hồ Chí Minh",
+    "hn": "Hà Nội",
+    "dn": "Đà Nẵng"
+  }
+}

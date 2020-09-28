@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import ticketsApi from "../../api/ticketsApi";
 
-export const getTickets = createAsyncThunk("users/getTickets", async () => {
+export const getTickets = createAsyncThunk("tickets/getTickets", async () => {
   const currentTickets = await ticketsApi.getTickets();
   return currentTickets;
 });
@@ -13,7 +13,12 @@ const adminTicketsManagementSlice = createSlice({
     loading: false,
     error: "",
   },
-  reducers: {},
+  reducers: {
+    removeTicket: (state, action) => {
+      const removeTicketId = action.payload;
+      state.tickets = state.tickets.filter((e) => e.id !== removeTicketId);
+    },
+  },
   extraReducers: {
     [getTickets.pending]: (state) => {
       state.loading = true;
@@ -32,5 +37,5 @@ const adminTicketsManagementSlice = createSlice({
 });
 
 const { reducer: ticketsReducer, actions } = adminTicketsManagementSlice;
-export const { getUser } = actions;
+export const { removeTicket } = actions;
 export default ticketsReducer;

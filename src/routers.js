@@ -1,37 +1,51 @@
 import React from "react";
+import AdminMovieAddEdit from "./components/admin/AdminMovieAddEdit";
 import AdminMoviesManagement from "./components/admin/AdminMoviesManagement";
 import AdminRevenueManagement from "./components/admin/AdminRevenueManagement";
 import AdminTicketsManagement from "./components/admin/AdminTicketsManagement";
+import AdminUserAddEdit from "./components/admin/AdminUserAddEdit";
 import AdminUsersManagement from "./components/admin/AdminUsersManagement";
 
 const routers = [
   {
     path: "/admin/moviesManagement",
     exact: true,
-    main: ({ location, history }) => (
-      <AdminMoviesManagement location={location} history={history} />
-    ),
+    main: () => <AdminMoviesManagement />,
+  },
+  {
+    path: "/admin/moviesManagement/edit/:movieId",
+    exact: true,
+    main: () => <AdminMovieAddEdit />,
+  },
+  {
+    path: "/admin/moviesManagement/add",
+    exact: true,
+    main: () => <AdminMovieAddEdit />,
   },
   {
     path: "/admin/revenueManagement",
     exact: true,
-    main: ({ location, history }) => (
-      <AdminRevenueManagement location={location} history={history} />
-    ),
+    main: () => <AdminRevenueManagement />,
   },
   {
     path: "/admin/ticketsManagement",
     exact: true,
-    main: ({ location, history }) => (
-      <AdminTicketsManagement location={location} history={history} />
-    ),
+    main: () => <AdminTicketsManagement />,
   },
   {
     path: "/admin/usersManagement",
     exact: true,
-    main: ({ location, history }) => (
-      <AdminUsersManagement location={location} history={history} />
-    ),
+    main: () => <AdminUsersManagement />,
+  },
+  {
+    path: "/admin/usersManagement/edit/:userId",
+    exact: true,
+    main: () => <AdminUserAddEdit />,
+  },
+  {
+    path: "/admin/usersManagement/add",
+    exact: true,
+    main: () => <AdminUserAddEdit />,
   },
 ];
 
