@@ -115,132 +115,114 @@
       "image": "https://galaxycine.vn/media/2020/9/9/banner-2048x682_1599634539410.jpg"
     }
   ],
+
   "movies": [
     {
+      "id": 1,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim1",
-      "ratings": "51",
-      "time": "97",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 1
+      "releaseDate": "18/9/2020"
     },
     {
+      "id": 2,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim2",
-      "ratings": "51",
-      "time": "97",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 2
+      "releaseDate": "18/9/2020"
     },
     {
+      "id": 3,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim3",
-      "ratings": "51",
-      "time": "97",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 3
+      "releaseDate": "18/9/2020"
     },
     {
+      "id": 4,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim4",
-      "ratings": "51",
-      "time": "97",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 4
+      "releaseDate": "18/9/2020"
     },
     {
+      "id": 5,
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim1",
-      "ratings": "51",
-      "time": "97",
+      "name": "Xứ sở phép thuật",
+      "ratings": 5,
+      "time": 97,
       "producer": "Rat Pack Filmproduktion",
       "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 5
-    },
-    {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim2",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 6
-    },
-    {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim3",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 7
-    },
-    {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim4",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 8
+      "releaseDate": "18/9/2020"
     }
   ],
+
   "blogs": [
     {
       "id": 1,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/450-james_1601263582784.jpg",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     },
     {
       "id": 2,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/tindienanh450x300_1601262245555.png",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     },
     {
       "id": 3,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/image_1601240213517.jpg",
+      "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
+      "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
+    },
+    {
+      "id": 4,
+      "image": "https://www.galaxycine.vn/media/2020/9/25/robert-downey-jr-trying-to-revive-johnny-depps-career-with-this-film-001_1601018912431.jpg",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     }
   ],
+
   "promotion": [
     {
       "id": 1,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/16/300x450_1600243476498.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     },
     {
       "id": 2,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2019/12/9/300x450_1575874237175.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     },
     {
       "id": 3,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/3/300x450_1599120288127.jpg",
+      "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
+      "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
+    },
+    {
+      "id": 4,
+      "image": "https://www.galaxycine.vn/media/2020/9/21/300x450_1600679166207.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     }
@@ -249,14 +231,14 @@
     {
       "id": 1,
       "image": "https://www.galaxycine.vn/media/2020/5/19/combo-1_1589871759174.jpg",
-      "name": "1 ly nước, 1 bắp",
-      "price": 77000
+      "title": "iCombo 1 Big",
+      "name": "1 ly nước, 1 bắp"
     },
     {
       "id": 2,
       "image": "https://www.galaxycine.vn/media/2020/5/19/combo-2_1589871763789.jpg",
-      "name": "2 ly nước, 1 bắp",
-      "price": 97000
+      "title": "iCombo 2 Big",
+      "name": "2 ly nước, 1 bắp"
     }
   ],
   "cinemas": [
@@ -265,78 +247,16 @@
       "name": "Galaxy 1",
       "session": [
         {
-          "id": 1,
+          "id": 11,
           "time": "10:00"
         },
         {
-          "id": 2,
+          "id": 12,
           "time": "11:00"
         },
         {
-          "id": 3,
+          "id": 13,
           "time": "12:00"
-        }
-      ],
-      "seats": [
-        {
-          "id": 1,
-          "codeSeat": "A01",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 2,
-          "codeSeat": "A02",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 3,
-          "codeSeat": "A03",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 4,
-          "codeSeat": "A04",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 5,
-          "codeSeat": "A05",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 6,
-          "codeSeat": "A06",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 7,
-          "codeSeat": "A07",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 8,
-          "codeSeat": "A08",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 9,
-          "codeSeat": "A09",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 10,
-          "codeSeat": "A10",
-          "price": 75000,
-          "status": false
         }
       ]
     },
@@ -345,70 +265,140 @@
       "name": "Galaxy 2",
       "session": [
         {
-          "id": 1,
+          "id": 21,
           "time": "10:00"
         },
         {
-          "id": 2,
+          "id": 22,
           "time": "11:00"
         },
         {
-          "id": 3,
+          "id": 23,
           "time": "12:00"
         }
-      ],
-      "seats": [
-        {
-          "codeSeat": "A01",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A02",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A03",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A04",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A05",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A06",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A07",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A08",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A09",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A10",
-          "price": 75000,
-          "status": false
-        }
       ]
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "codeSeat": "A01",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 2,
+      "codeSeat": "A02",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 3,
+      "codeSeat": "A03",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 4,
+      "codeSeat": "A04",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 5,
+      "codeSeat": "A05",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 6,
+      "codeSeat": "A06",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 7,
+      "codeSeat": "A07",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 8,
+      "codeSeat": "A08",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 9,
+      "codeSeat": "A09",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 10,
+      "codeSeat": "A10",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 11,
+      "codeSeat": "A11",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 12,
+      "codeSeat": "A12",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 13,
+      "codeSeat": "A13",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 14,
+      "codeSeat": "A14",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 15,
+      "codeSeat": "A15",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 16,
+      "codeSeat": "A16",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 17,
+      "codeSeat": "A17",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 18,
+      "codeSeat": "A18",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 19,
+      "codeSeat": "A19",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 20,
+      "codeSeat": "A20",
+      "price": 75000,
+      "status": false
     }
   ],
   "payment": [

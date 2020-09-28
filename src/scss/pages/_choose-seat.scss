@@ -1,0 +1,74 @@
+.choose-seat {
+  margin-bottom: 100px;
+  &__grid {
+    @include grid(3fr 1fr);
+  }
+  &__scope {
+    background-color: $color-white;
+    padding: 40px;
+  }
+  &__row {
+    width: 100%;
+    max-width: 175px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    button {
+      width: 30px;
+      height: 30px;
+      background-color: $color-seat-scope;
+      text-align: center !important;
+      vertical-align: middle;
+      padding: 0;
+      margin: 0px 5px 5px 5px;
+      font-size: $font-size-small;
+      &:hover {
+        color: $color-main;
+      }
+    }
+    .active {
+      background-color: $color-chooseseat-selected;
+    }
+  }
+}
+.screen {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-bottom: 3px solid $color-bd-screen;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.seats-cinema {
+  text-align: center;
+  span {
+    margin-right: 40px;
+    padding-left: 20px;
+    color: $color-black;
+    position: relative;
+    &:before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      margin-right: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      position: absolute;
+    }
+    &.seat-cinema-selected:before {
+      background-color: $color-chooseseat-selected;
+    }
+    &.seat-cinema-sold:before {
+      background-color: $color-chooseseat-sold;
+    }
+    &.seat-cinema-choose:before {
+      background-color: $color-seat-scope;
+    }
+    &.seat-cinema-notchoose:before {
+      background-color: $color-chooseseat-notchoose;
+    }
+  }
+}

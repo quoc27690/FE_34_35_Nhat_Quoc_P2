@@ -1,0 +1,23 @@
+.breadcrumbs {
+  padding: 50px 0 80px 0;
+  a {
+    font-size: $font-size-ultra;
+    padding-right: 15px;
+    position: relative;
+    font-weight: $font-weight3;
+    margin-right: 5px;
+    &:last-child {
+      color: $color-breadcrumbs;
+      &:after {
+        display: none;
+      }
+    }
+    &:after {
+      content: "/";
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+  }
+}

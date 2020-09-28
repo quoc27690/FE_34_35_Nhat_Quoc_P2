@@ -1,18 +1,11 @@
 .register {
 	&__wrap {
-<<<<<<< HEAD
 		max-width: 520px;
-<<<<<<< HEAD
 		background-color: $color-white;
-=======
-		background-color: #ffffff;
->>>>>>> ebdba69... finish
-=======
 		border: 1px solid $bg-main;
 		@include ml-mr(30%, 30%);
-		@include mt-mb(50px, 0);
+		@include mt-mb(50px, 50px);
 		background-color: $color-white;
->>>>>>> 86995ce... finish
 		position: relative;
 		box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
 	}
