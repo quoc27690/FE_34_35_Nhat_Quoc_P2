@@ -28,7 +28,7 @@ const HeaderTopBar = () => {
   }, [dispatch, searchMovie]);
 
   const handleLogOut = () => {
-    localStorage.removeItem("token");
+    localStorage.clear();
     history.push("/");
   };
 

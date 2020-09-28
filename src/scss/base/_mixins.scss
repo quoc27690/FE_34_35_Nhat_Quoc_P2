@@ -1,29 +1,3 @@
-@mixin font-face($name) {
-  @font-face {
-    font-family: $name;
-    src: url("../../assets/fonts/#{$name}.ttf");
-  }
-}
-
-@mixin pl-pr($pl, $pr) {
-  padding-left: $pl;
-  padding-right: $pr;
-}
-@mixin pt-pb($pt, $pb) {
-  padding-top: $pt;
-  padding-bottom: $pb;
-}
-
-@mixin ml-mr($ml, $mr) {
-  margin-left: $ml;
-  margin-right: $mr;
-}
-
-@mixin mt-mb($mt, $mb) {
-  margin-top: $mt;
-  margin-bottom: $mb;
-}
-
 @mixin flex($justify: space-between, $wrap: nowrap, $align: center) {
   display: flex;
   justify-content: $justify;
@@ -68,4 +42,31 @@
       #{$web}transform: scale(1.1);
     }
   }
+}
+
+@mixin font-face($name) {
+  @font-face {
+    font-family: $name;
+    src: url("../../assets/fonts/#{$name}.ttf");
+  }
+}
+
+@mixin pl-pr($pl, $pr) {
+  padding-left: $pl;
+  padding-right: $pr;
+}
+
+@mixin pt-pb($pt, $pb) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+
+@mixin ml-mr($ml, $mr) {
+  margin-left: $ml;
+  margin-right: $mr;
+}
+
+@mixin mt-mb($mt, $mb) {
+  margin-top: $mt;
+  margin-bottom: $mb;
 }

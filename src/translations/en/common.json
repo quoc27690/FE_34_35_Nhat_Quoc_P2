@@ -55,6 +55,130 @@
   },
 
   "headerTopBar": {
-    "search": "Search Movie..."
+    "search": "Search Movie...",
+    "register": "Register"
+  },
+
+  "menu": {
+    "home": "Home",
+    "buyTicket": "Buy Ticket",
+    "movie": "Movie",
+    "cinema": "Cinema",
+    "member": "Member"
+  },
+
+  "titleSection": {
+    "blog": "Blog",
+    "movie": "Movie",
+    "newest": "Newest",
+    "new": "New",
+    "promotion": "Promotion"
+  },
+
+  "video": {
+    "videoPlay": "video play",
+    "bymoviak": "Bymoviak"
+  },
+
+  "widget": {
+    "description": "Very pleased to serve you !",
+
+    "introduce": "Introduce",
+    "cinemaCorner": "Cinema Corner",
+    "support": "Support",
+
+    "aboutUs": "About us",
+    "convenient": "Convenient to use",
+    "regulation": "Operation regulation",
+    "privacyPolicy": "Privacy Policy",
+    "movieGenre": "Movie genre",
+    "movieCommentary": "Movie commentary",
+    "blogMovies": "Blog movies",
+    "movieMonth": "Good movie month",
+    "address": "65 Yên Thế, Đà Nẵng",
+    "gmail": "abc@gmail.com",
+    "phone": "0123 456 789"
+  },
+
+  "breadcrumbs": {
+    "home": "Home",
+    "listMovie": "List Movie",
+    "listDetails": "List Details",
+    "buyTicket": "Buy ticket",
+    "chooseSeats": "Choose Seat",
+    "pays": "Pay"
+  },
+
+  "movieDetail": {
+    "minutes": "Minutes",
+    "releaseDate": "Release Date",
+    "genre": "Genre",
+    "actor": "Actor",
+    "director": "Director",
+    "title": "Showtime",
+    "continue": "Continue",
+    "pleaseChoose": "Please choose a time slot"
+  },
+
+  "titleBooking": {
+    "chooseTiketFood": "CHOOSE TICKET / FOOD",
+    "chooseSeats": "CHOOSE SEAT",
+    "choosePays": "PLEASE PAY"
+  },
+
+  "chooseTiket": {
+    "ticketType": "Ticket Type",
+    "combo": "Combo",
+    "number": "Number",
+    "price": "Price (VNĐ)",
+    "totalItem": "Total (VNĐ)",
+    "totalAllItems": "Total",
+    "adults": "Adults",
+    "ticket2D": "2D tickets",
+    "pleaseChoose": "Please choose a ticket"
+  },
+
+  "buyTicket": {
+    "cinema": "Cinema:",
+    "screening": "Screening:",
+    "date": "Date:",
+    "combo": "Combo:",
+    "seat": "Seat:",
+    "total": "Total:",
+    "time": "Time:"
+  },
+
+  "chooseSeat": {
+    "screen": "Screen",
+    "selected": "Selected seat",
+    "sold": "Sold",
+    "choose": "Can choose",
+    "notchoose": "Can't choose",
+    "pleaseChoose": "Please choose a seat"
+  },
+
+  "pays": {
+    "payments": "Payments:",
+    "fullName": "Full name:",
+    "email": "Email:",
+    "phone": "Phone:",
+    "cash": "Cash",
+    "card": "ZaloPay - ATM Card/Visa/Master",
+    "pleaseChoose": "Please choose a form of paymentt",
+    "success": "Payment Success"
+  },
+
+  "button": {
+    "back": "Back",
+    "pay": "Pay",
+    "continue": "Continue"
+  },
+
+  "members": {
+    "name": "Name",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "email": "Email",
+    "region": "Region"
   }
 }
