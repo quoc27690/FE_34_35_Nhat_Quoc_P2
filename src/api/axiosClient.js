@@ -6,16 +6,27 @@ const axiosClient = axios.create({
 
 axiosClient.interceptors.response.use(
   (response) => {
-    if (response && response.data) {
-      if (response.data.accessToken) {
-        localStorage.setItem("token", response.data.accessToken);
-      }
-      return response.data;
+    // if (response && response.data) {
+    //   if (response.data.accessToken) {
+    //     localStorage.setItem("token", response.data.accessToken);
+    //   }
+
+    //   return response.data;
+    // }
+    if (response.data.accessToken) {
+      localStorage.setItem("token", response.data.accessToken);
     }
-    return response;
+    return response.data;
   },
   (error) => {
-    return error.response.data;
+    // Case 1: Networking
+    if (error.response) {
+      return error.response.data;
+    }
+    // Case 2: Network Error
+    else {
+      throw error;
+    }
   }
 );
 export default axiosClient;

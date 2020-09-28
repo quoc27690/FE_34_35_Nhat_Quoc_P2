@@ -10,6 +10,11 @@ const ticketsApi = {
     const url = `/tickets/${ticketId}`;
     return axiosClient.delete(url);
   },
+
+  postTicket: (ticket) => {
+    const url = `/tickets/`;
+    return axiosClient.post(url, ticket);
+  },
 };
 
 export default ticketsApi;

@@ -1,0 +1,47 @@
+.blog {
+	padding-bottom: 100px;
+	&__grid {
+		@include grid(1fr 1fr);
+	}
+	&__box {
+		overflow: hidden;
+		&.big {
+			.blog__poster {
+				width: 250px;
+				float: left;
+			}
+		}
+		&.small {
+			margin-bottom: 30px;
+			.blog__poster {
+				width: 150px;
+				float: left;
+			}
+			.blog__content {
+				.blog__title a {
+					font-size: $font-size-medium;
+				}
+			}
+		}
+		&.big {
+			.blog__content {
+				width: calc(100% - 250px);
+			}
+		}
+		&.small {
+			.blog__content {
+				width: calc(100% - 150px);
+			}
+		}
+	}
+	&__content {
+		overflow: hidden;
+		padding: 10px 0 0 20px;
+	}
+	&__title {
+		margin-bottom: 15px;
+		a {
+			font-size: $font-size-big;
+		}
+	}
+}

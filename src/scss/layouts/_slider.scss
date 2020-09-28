@@ -1,0 +1,48 @@
+.slider {
+	position: relative;
+}
+.react-slideshow-container {
+	display: unset;
+	align-items: unset;
+}
+.react-slideshow-container .default-nav:first-of-type {
+	margin-right: 0;
+	border-right: 0;
+	border-top: 0;
+}
+.react-slideshow-container .default-nav {
+	display: unset;
+	align-items: unset;
+	justify-content: unset;
+	background-color: $bg-white;
+	line-height: 34px;
+}
+.react-slideshow-container .default-nav:first-of-type {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	padding: 0;
+}
+.react-slideshow-container .default-nav:last-of-type {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	padding: 0;
+}
+.react-slideshow-container .default-nav:last-of-type {
+	margin-left: 0;
+}
+.react-slideshow-container .default-nav svg {
+	width: 14px;
+	height: 14px;
+	fill: $color-main;
+	@extend.trans;
+}
+.react-slideshow-container .default-nav:hover {
+	background-color: $bg-main;
+}
+.react-slideshow-container .default-nav:hover svg {
+	fill: $color-white;
+}

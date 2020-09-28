@@ -1,9 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function AdminSlideBar() {
   const { t } = useTranslation("common");
+
+  const location = useLocation();
 
   const ADMIN_SLIDE_BAR = [
     { to: "/admin/usersManagement", title: t("admin.usersManagement") },
@@ -17,7 +19,11 @@ export default function AdminSlideBar() {
       <ul>
         {ADMIN_SLIDE_BAR.map((e, i) => (
           <li key={i}>
-            <Link to={e.to}>{e.title}</Link>
+            <Link to={e.to}>
+              <p className={location.pathname === e.to ? "active" : ""}>
+                {e.title}
+              </p>
+            </Link>
           </li>
         ))}
       </ul>

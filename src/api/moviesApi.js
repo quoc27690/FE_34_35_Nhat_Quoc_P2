@@ -6,6 +6,16 @@ const moviesApi = {
     return axiosClient.get(url);
   },
 
+  getMoviesHome: () => {
+    const url = "/movies?_page=1&_limit=8";
+    return axiosClient.get(url);
+  },
+
+  getMovieDetail: (movieId) => {
+    const url = `/movies/${movieId}`;
+    return axiosClient.get(url);
+  },
+
   getMovieSearch: (searchMovie) => {
     const url = `/movies?q=${searchMovie}`;
     return axiosClient.get(url);

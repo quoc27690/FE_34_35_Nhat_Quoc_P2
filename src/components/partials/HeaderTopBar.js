@@ -1,41 +1,35 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
-import moviesApi from "../../api/moviesApi";
-import {
-  getSearchMovie,
-  getListMovie,
-} from "../../redux/slice/searchMovieSlice";
+import { getChange } from "../../redux/slice/i18nSlice";
+import { getMovieSearch } from "../../redux/slice/searchMovieSlice";
 
 const HeaderTopBar = () => {
   const { t, i18n } = useTranslation("common");
-
   const history = useHistory();
-
   const dispatch = useDispatch();
-
-  const { searchMovie, listMovie } = useSelector((state) => state.searchMovie);
+  const { listMovie, loading, error } = useSelector(
+    (state) => state.searchMovie
+  );
+  const { status } = useSelector((state) => state.i18n);
+  const [search, setSearch] = useState("");
 
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    async function getMovieSearch() {
-      const movieListSearch = await moviesApi.getMovieSearch(searchMovie);
-      dispatch(getListMovie(movieListSearch));
-    }
-    getMovieSearch();
-  }, [dispatch, searchMovie]);
+    dispatch(getMovieSearch(search));
+  }, [dispatch, search]);
 
   const handleLogOut = () => {
-    localStorage.removeItem("token");
+    localStorage.clear();
     history.push("/");
   };
 
   const showMovieSearch = () => {
     return listMovie.map((e, i) => (
       <li key={i}>
-        <Link to={`/movie/${e.id}`}>
+        <Link to={`/movie-detail/${e.id}`}>
           <img src={e.image} alt="" />
           <p>{e.name}</p>
         </Link>
@@ -43,25 +37,46 @@ const HeaderTopBar = () => {
     ));
   };
 
+  const handleVi = () => {
+    i18n.changeLanguage("vi");
+    dispatch(getChange(true));
+  };
+
+  const handleEn = () => {
+    i18n.changeLanguage("en");
+    dispatch(getChange(false));
+  };
+
   return (
     <div className="topbar">
       <div className="container">
         <div className="topbar__flex">
           <div className="topbar__search">
-            <form className="topbar__search--form">
-              <div className="input-append">
-                <input
-                  placeholder={t("headerTopBar.search")}
-                  type="search"
-                  value={searchMovie}
-                  onChange={(e) => dispatch(getSearchMovie(e.target.value))}
-                />
-                <button>
-                  <i className="fa fa-search"></i>
-                </button>
-              </div>
-            </form>
-            {searchMovie ? <ul>{showMovieSearch()}</ul> : ""}
+            {error ? (
+              <p>
+                {t("headerTopBar.search")} : {error.message}
+              </p>
+            ) : (
+              <form className="topbar__search--form">
+                <div className="input-append">
+                  <input
+                    placeholder={
+                      loading
+                        ? t("headerTopBar.loading")
+                        : t("headerTopBar.search")
+                    }
+                    type="search"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                  />
+                  <button>
+                    <i className="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            )}
+
+            {search ? <ul>{showMovieSearch()}</ul> : ""}
           </div>
           <div className="topbar__dkris">
             {token ? (
@@ -87,14 +102,22 @@ const HeaderTopBar = () => {
 
             <div className="topbar__language">
               <button
-                className="topbar__language--vn"
-                onClick={() => i18n.changeLanguage("vi")}
+                className={
+                  status === true
+                    ? "topbar__language--vn active"
+                    : "topbar__language--vn"
+                }
+                onClick={handleVi}
               >
                 VN
               </button>
               <button
-                className="topbar__language--en"
-                onClick={() => i18n.changeLanguage("en")}
+                className={
+                  status === false
+                    ? "topbar__language--en active"
+                    : "topbar__language--en"
+                }
+                onClick={handleEn}
               >
                 EN
               </button>

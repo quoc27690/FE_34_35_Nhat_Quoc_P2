@@ -9,11 +9,8 @@ import AdminAction from "../admin/AdminAction";
 
 export default function AdminUsersManagement() {
   const { t } = useTranslation("common");
-
   const dispatch = useDispatch();
-
   const history = useHistory();
-
   const { users, loading, error } = useSelector((state) => state.users);
 
   useEffect(() => {

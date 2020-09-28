@@ -1,0 +1,18 @@
+.frame-choose {
+  position: relative;
+  &__inner {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+    background-color: $color-table-total;
+  }
+  &__title {
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: $color-white;
+    padding: 10px;
+  }
+}

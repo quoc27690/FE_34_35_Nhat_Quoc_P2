@@ -1,0 +1,47 @@
+.cinema {
+  &__wrap {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__name {
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-white;
+    background-color: $color-cma-name;
+    padding: 10px 40px;
+  }
+  &__showtime {
+    padding: 40px;
+    background-color: $color-cma-sw;
+  }
+  &__item {
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    label {
+      color: $color-black;
+      font-size: 15px;
+      font-weight: $font-weight6;
+      margin-bottom: 10px;
+      display: block;
+    }
+  }
+  &__list {
+    .active {
+      background-color: $bg-main;
+    }
+    button {
+      padding: 6px 10px;
+      color: $color-black;
+      cursor: pointer;
+      font-size: $font-size-medium;
+      border-radius: 4px;
+      display: inline-block;
+      margin-right: 10px;
+      background-color: $color-slist;
+    }
+  }
+}

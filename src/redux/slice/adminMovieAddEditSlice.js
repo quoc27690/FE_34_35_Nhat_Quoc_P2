@@ -1,65 +1,82 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import moviesApi from "../../api/moviesApi";
+
+export const postMovie = createAsyncThunk("postMovie", async (movie) => {
+  const currentPostMovie = await moviesApi.postMovie(movie);
+  return currentPostMovie;
+});
+
+export const getMovieDetail = createAsyncThunk(
+  "getMovieDetail",
+  async (movieId) => {
+    const currentGetMovieDetail = await moviesApi.getMovieDetail(movieId);
+    return currentGetMovieDetail;
+  }
+);
+
+export const putMovie = createAsyncThunk(
+  "putMovie",
+  async ({ movieId, movie }) => {
+    const currentPutMovie = await moviesApi.putMovie(movieId, movie);
+    return currentPutMovie;
+  }
+);
 
 const adminMovieAddEditSlice = createSlice({
   name: "adminMovieAddEditSlice",
   initialState: {
-    image: "",
-    name: "",
-    ratings: "",
-    time: "",
-    producer: "",
-    type: "",
-    actor: "",
-    releaseDate: "",
+    successError: "",
+    loading: false,
+    loadingGetMovie: false,
+    error: "",
   },
-  reducers: {
-    getAll: (state, action) => {
-      state.image = action.payload.image;
-      state.name = action.payload.name;
-      state.ratings = action.payload.ratings;
-      state.time = action.payload.time;
-      state.producer = action.payload.producer;
-      state.type = action.payload.type;
-      state.actor = action.payload.actor;
-      state.releaseDate = action.payload.releaseDate;
+  reducers: {},
+  extraReducers: {
+    // post movie
+    [postMovie.pending]: (state) => {
+      state.loading = true;
     },
-    getImage: (state, action) => {
-      state.image = action.payload;
+
+    [postMovie.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loading = false;
     },
-    getName: (state, action) => {
-      state.name = action.payload;
+
+    [postMovie.fulfilled]: (state, action) => {
+      state.successError = action.payload;
+      state.loading = false;
     },
-    getratings: (state, action) => {
-      state.ratings = action.payload;
+
+    // put movie
+    [putMovie.pending]: (state) => {
+      state.loading = true;
     },
-    getTime: (state, action) => {
-      state.time = action.payload;
+
+    [putMovie.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loading = false;
     },
-    getproducer: (state, action) => {
-      state.producer = action.payload;
+
+    [putMovie.fulfilled]: (state, action) => {
+      state.successError = action.payload;
+      state.loading = false;
     },
-    getType: (state, action) => {
-      state.type = action.payload;
+
+    // get movie
+    [getMovieDetail.pending]: (state) => {
+      state.loadingGetUser = true;
     },
-    getActor: (state, action) => {
-      state.actor = action.payload;
+
+    [getMovieDetail.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loadingGetUser = false;
     },
-    getReleaseDate: (state, action) => {
-      state.releaseDate = action.payload;
+
+    [getMovieDetail.fulfilled]: (state, action) => {
+      state.loadingGetUser = false;
     },
   },
 });
 
-const { reducer: movieAddEditReducer, actions } = adminMovieAddEditSlice;
-export const {
-  getAll,
-  getImage,
-  getName,
-  getratings,
-  getTime,
-  getproducer,
-  getType,
-  getActor,
-  getReleaseDate,
-} = actions;
+const { reducer: movieAddEditReducer } = adminMovieAddEditSlice;
 export default movieAddEditReducer;

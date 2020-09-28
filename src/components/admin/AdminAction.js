@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import moviesApi from "../../api/moviesApi";
 import ticketsApi from "../../api/ticketsApi";
 import usersApi from "../../api/usersApi";
-import { removeMovie } from "../../redux/slice/adminMoviesManagementSlice";
+import { removeMovie } from "../../redux/slice/moviesSlice";
 import { removeTicket } from "../../redux/slice/adminTicketsManagementSlice";
 import { removeUser } from "../../redux/slice/adminUsersManagementSlice";
 
@@ -39,7 +39,7 @@ export default function AdminAction(props) {
     }
   };
 
-  const handleEdit = (userId, movieId, ticketId) => {
+  const handleEdit = (userId, movieId) => {
     if (userId) {
       const editUserUrl = `/admin/usersManagement/edit/${userId}`;
       history.push(editUserUrl);
@@ -48,20 +48,20 @@ export default function AdminAction(props) {
       const editMovieUrl = `/admin/moviesManagement/edit/${movieId}`;
       history.push(editMovieUrl);
     }
-    if (ticketId) {
-      const editTicketUrl = `/admin/ticketsManagement/edit/${ticketId}`;
-      history.push(editTicketUrl);
-    }
   };
 
   return (
     <div className="admin-action">
-      <button
-        className="admin-action--edit"
-        onClick={() => handleEdit(userId, movieId, ticketId)}
-      >
-        {t("admin.edit")}
-      </button>
+      {ticketId ? (
+        ""
+      ) : (
+        <button
+          className="admin-action--edit"
+          onClick={() => handleEdit(userId, movieId)}
+        >
+          {t("admin.edit")}
+        </button>
+      )}
       <button
         className="admin-action--remove"
         onClick={() => handleRemove(userId, movieId, ticketId)}

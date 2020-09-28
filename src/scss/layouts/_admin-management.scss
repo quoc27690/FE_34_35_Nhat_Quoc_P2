@@ -114,8 +114,7 @@
 
     .submit {
       @include mt-mb(30px, 0);
-      color: $color-btn-info;
-      border-color: $color-btn-info;
+      color: $color-white;
     }
   }
 }

@@ -1,0 +1,35 @@
+.member {
+  &__bg {
+    background-image: url("../../assets/images/member/01.png");
+    padding: 100px 0;
+    background-position-x: center;
+  }
+  &__info {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: $color-white;
+    border: 3px dashed $color-black;
+
+    label {
+      font-size: $font-size-larger;
+      font-weight: $font-weight6;
+    }
+
+    input,
+    select {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    div {
+      margin-top: 15px;
+      button {
+        width: 100%;
+        color: $color-white;
+      }
+    }
+  }
+}

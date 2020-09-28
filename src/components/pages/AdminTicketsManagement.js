@@ -9,11 +9,8 @@ import { useHistory } from "react-router-dom";
 
 export default function AdminTicketsManagement() {
   const { t } = useTranslation("common");
-
   const dispatch = useDispatch();
-
   const history = useHistory();
-
   const { tickets, loading, error } = useSelector((state) => state.tickets);
 
   useEffect(() => {

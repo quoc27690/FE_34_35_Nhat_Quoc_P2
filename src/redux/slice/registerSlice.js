@@ -1,59 +1,38 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import authApi from "../../api/authApi";
+
+export const postUserRegister = createAsyncThunk(
+  "postUserRegister",
+  async (user) => {
+    const currentUser = await authApi.postUserRegister(user);
+    return currentUser;
+  }
+);
 
 const registerSlice = createSlice({
   name: "registerSlice",
   initialState: {
-    name: "",
-    email: "",
-    password: "",
-    phone: "",
-    region: "",
-    birthday: "",
-    gender: "",
+    successError: "",
+    loading: false,
+    error: "",
   },
-  reducers: {
-    getAll: (state, action) => {
-      state.name = action.payload.name;
-      state.email = action.payload.email;
-      state.password = action.payload.password;
-      state.phone = action.payload.phone;
-      state.region = action.payload.region;
-      state.birthday = action.payload.birthday;
-      state.gender = action.payload.gender;
+  reducers: {},
+  extraReducers: {
+    [postUserRegister.pending]: (state) => {
+      state.loading = true;
     },
-    getName: (state, action) => {
-      state.name = action.payload;
+
+    [postUserRegister.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loading = false;
     },
-    getEmail: (state, action) => {
-      state.email = action.payload;
-    },
-    getPassword: (state, action) => {
-      state.password = action.payload;
-    },
-    getPhone: (state, action) => {
-      state.phone = action.payload;
-    },
-    getRegion: (state, action) => {
-      state.region = action.payload;
-    },
-    getBirthday: (state, action) => {
-      state.birthday = action.payload;
-    },
-    getGender: (state, action) => {
-      state.gender = action.payload;
+
+    [postUserRegister.fulfilled]: (state, action) => {
+      state.successError = action.payload;
+      state.loading = false;
     },
   },
 });
 
-const { reducer: registerReducer, actions } = registerSlice;
-export const {
-  getAll,
-  getName,
-  getEmail,
-  getPassword,
-  getPhone,
-  getRegion,
-  getBirthday,
-  getGender,
-} = actions;
+const { reducer: registerReducer } = registerSlice;
 export default registerReducer;

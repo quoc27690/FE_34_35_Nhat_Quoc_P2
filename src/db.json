@@ -1,104 +1,74 @@
 {
   "users": [
     {
-      "name": "quoc1",
-      "email": "quoc@gmail.com",
-      "password": "$2a$10$uOlsCvgfgg9YQWCqWpfi5e8qUE8TmW9Tr/OklPowhP15vyX0pwNvK",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$2NZZElNw9xpeA3lzIky33OVPmIN7JjvNAd7x8higF5yg08DgP1Whu",
+      "name": "admin",
       "phone": "123456789",
       "region": "Ho Chi Minh",
-      "birthday": "2020-09-01",
+      "birthday": "2020-10-01",
       "gender": "Male",
       "id": 1
     },
     {
-      "email": "thao@gmail.com",
-      "password": "$2a$10$dPMeqr1kEpSxC26QSPX9IOLEuMRgFqKCAcI0GNuWa1SjHdiYanQqe",
-      "name": "thao",
+      "name": "quoc1",
+      "email": "quoc@gmail.com1",
+      "password": "$2a$10$aJzHQJAVaK4JAbOq.DyjzOP4uIV1rBcJzrm1uOqrrgwZ29nm7F9vO",
       "phone": "123456789",
-      "region": "Ha Noi",
-      "birthday": "2020-09-24",
-      "gender": "Female",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-10-13",
+      "gender": "Male",
       "id": 2
     },
     {
-      "email": "tit@gmail.com",
-      "password": "$2a$10$vEarq36PdoSZFfY4y4kvROaa.oxKr5vJ8/URIS5Y1FtXsERrmvE.e",
-      "name": "tit",
+      "name": "nhat11221",
+      "email": "nhat@gmail.com11",
+      "password": "$2a$10$iOEpJVm84i.WOychWA4NiuMT6XYD2aj3gIs4/mG6dZIy6e8aczFO.",
       "phone": "123456789",
       "region": "Da Nang",
-      "birthday": "2020-09-25",
-      "gender": "male",
+      "birthday": "2020-10-02",
+      "gender": "Male",
       "id": 3
     },
     {
-      "email": "cb@gmail.com",
-      "password": "$2a$10$Oq2fNtJxUF6gwoSVw9vuO.2tK1pG0ZVayccquYCO7UildqrK3D9W2",
-      "name": "cb",
-      "phone": "123456",
+      "name": "thao121212",
+      "email": "thao@gmail.com131313",
+      "password": "$2a$10$0rRU6tovof0GglUrx5pWZueYDzmgnFW4XoEXg7/XtbTwwb4e7CvDe",
+      "phone": "123456789",
       "region": "Ho Chi Minh",
-      "birthday": "2020-09-10",
-      "gender": "male",
+      "birthday": "2020-10-13",
+      "gender": "Male",
       "id": 4
     },
     {
-      "email": "aq@gmail.com",
-      "password": "$2a$10$EIukCUECOf8HboGTQHUSs.fcme/YZt7bCMfTEGwf9VCQ9h4G0.1UG",
-      "name": "aq",
-      "phone": "123456",
+      "name": "hihi1",
+      "email": "hihi@gmail.com",
+      "password": "$2a$10$tlxkPRsT58..3M3oTCNin.O0yNCdK3v0/YQVBn7LY5dgWflcnBdBK",
+      "phone": "12345678",
       "region": "Ho Chi Minh",
-      "birthday": "2020-09-09",
-      "gender": "male",
+      "birthday": "2020-10-08",
+      "gender": "Male",
       "id": 5
     },
     {
-      "email": "ty@gmail.com",
-      "password": "$2a$10$OwFpto6PfcfCmYWBjO59..7My7S.O0jFx5rj/OnsUMJec12bZUPiG",
-      "name": "ty",
-      "phone": "123456",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-02",
-      "gender": "Female",
+      "name": "fufu",
+      "email": "fu@gmail.com",
+      "password": "$2a$10$Ks7dOo63j/Ho2KKwREb/DuDiDEn2pJ7HxIn7ioWN.LsW82KOaBAXS",
+      "phone": "123456789",
+      "region": "Da Nang",
+      "birthday": "2020-10-20",
+      "gender": "female",
       "id": 6
     },
     {
-      "email": "bn@gmail.com",
-      "password": "$2a$10$ClvToUM0nSPvandeK3ZW9uMFAliZZqg/xYucOrzUODTZvsey9SY4e",
-      "name": "bn",
-      "phone": "123456",
+      "email": "gt@gmail.com",
+      "password": "$2a$10$Qkmi8YcGFLf600ozOCDLIuBwPCvPqQAIh/V.5qKnIMCQDov09xpPi",
+      "name": "gt",
+      "phone": "2323",
       "region": "Ha Noi",
-      "birthday": "2020-09-11",
-      "gender": "male",
-      "id": 7
-    },
-    {
-      "email": "gh@gmail.com",
-      "password": "$2a$10$kgeVCOFYaYoihx0EHbLake1yXZVdWRSzzc2pyLyN1LntiX.3WqhHC",
-      "name": "gh",
-      "phone": "123456",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-10",
-      "gender": "Female",
-      "id": 8
-    },
-    {
-      "email": "ru@gmail.com",
-      "password": "$2a$10$TTU3LU7PPEGqHvexZspuP.PYELAWsGZnrDd/Nc85OnGnhS2/qiBVu",
-      "name": "ru",
-      "phone": "123456",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-02",
-      "gender": "male",
-      "id": 9
-    },
-    {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$LGHZ436hC/6cfYDyBwznxeKQVD9TUhprS1pbnbzlCphYK1.qKA5Ee",
-      "name": "admin",
-      "phone": "123456789",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-28",
+      "birthday": "2020-10-03",
       "gender": "Male",
-      "id": 10
+      "id": 7
     }
   ],
   "slides": [
@@ -117,110 +87,160 @@
   ],
   "movies": [
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim1",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_1.jpg",
+      "name": "The Hurricane Heist1",
+      "ratings": 5,
+      "time": 91,
+      "producer": "Grace Belly",
+      "type": "Cartoon, Cartoon/ Animation, Comedy, Drama",
+      "actor": "Alexander Cattly, Greta Garbo",
+      "releaseDate": "2020-09-03",
       "id": 1
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim2",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 2
+      "id": 2,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_2.jpg",
+      "name": "Jumanji: The Jungle",
+      "ratings": 3,
+      "time": 88,
+      "producer": "John Doe",
+      "type": "Action, Crime, Psychology",
+      "actor": "Jessica Chastain, Colin Farrell",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim3",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 3
+      "id": 3,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_3.jpg",
+      "name": "Ice Age: Collision Course",
+      "ratings": 4,
+      "time": 132,
+      "producer": "Eduardo Gondell, Víctor Monigote",
+      "type": "Family, Animation",
+      "actor": "Eva Hache, José Mota",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim4",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 4
+      "id": 4,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_4.jpg",
+      "name": "Star Trek Beyond",
+      "ratings": 5,
+      "time": 112,
+      "producer": "Matthew Ninaber",
+      "type": "Action",
+      "actor": "Jennifer Cornish, Melissa Joy Boerger",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim1",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 5
+      "id": 5,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_5.jpg",
+      "name": "Dark Mutants",
+      "ratings": 4,
+      "time": 105,
+      "producer": "Central Partnership Productions",
+      "type": "Miracle, Horror",
+      "actor": "Viktotiya Potemina, Anastasiia Gribova",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim2",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 6
+      "id": 6,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_6.jpg",
+      "name": "Zombie Mansion",
+      "ratings": 5,
+      "time": 88,
+      "producer": "Toho Company, Ltd.",
+      "type": "Horror, Crime",
+      "actor": "Hamabe Minami, Furukawa Yuki",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim3",
-      "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 7
+      "id": 7,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_7.jpg",
+      "name": "The Unfamiliar",
+      "ratings": 4,
+      "time": 97,
+      "producer": "Dark Matter Studios",
+      "type": "Horror",
+      "actor": "Jemima West, Christopher Dane",
+      "releaseDate": "2020-09-03"
     },
     {
-      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "phim4",
+      "id": 8,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_8.jpg",
+      "name": "Greenland",
+      "ratings": 3,
+      "time": 114,
+      "producer": "G-BASE",
+      "type": "Action, Thrilling",
+      "actor": "Gerard Butler, Morena Baccarin",
+      "releaseDate": "2020-09-03"
+    },
+    {
+      "id": 9,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_9.jpg",
+      "name": "The New Mutants",
+      "ratings": 4,
+      "time": 97,
+      "producer": "Marvel, 20th Century Fox",
+      "type": "Fantasy, Action, Adventure",
+      "actor": "Anya Taylor-Joy, Charlie Heaton",
+      "releaseDate": "2020-09-03"
+    },
+    {
+      "id": 10,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_10.jpg",
+      "name": "Tenet",
+      "ratings": 4,
+      "time": 97,
+      "producer": "Warner Bros",
+      "type": "Action, Fantasy, Thriller",
+      "actor": "Elizabeth Debicki, Robert Pattinson",
+      "releaseDate": "2020-09-03"
+    },
+    {
+      "id": 11,
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_11.jpg",
+      "name": "The Widow",
+      "ratings": 3,
+      "time": 97,
+      "producer": "Central Partnership Productions",
+      "type": "Miracle, Horror",
+      "actor": "Viktotiya Potemina, Anastasiia Gribova",
+      "releaseDate": "2020-09-03"
+    },
+    {
+      "image": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_12.jpg",
+      "name": "Foxiell Tonies",
       "ratings": "51",
-      "time": "97",
-      "producer": "Rat Pack Filmproduktion",
-      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
-      "actor": "Christian Berkel, Butz Ulrich Buse Director",
-      "releaseDate": "2020-09-08",
-      "id": 8
+      "time": 97,
+      "producer": "Paction Dyniss",
+      "type": "Action",
+      "actor": "Kenny Chotyn, Wiliam NJ",
+      "releaseDate": "2020-09-03",
+      "id": 12
     }
   ],
   "blogs": [
     {
       "id": 1,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/450-james_1601263582784.jpg",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     },
     {
       "id": 2,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/tindienanh450x300_1601262245555.png",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     },
     {
       "id": 3,
-      "image": "https://galaxycine.vn/media/2020/9/21/doctorstrange4_1600669259884.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/28/image_1601240213517.jpg",
+      "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
+      "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
+    },
+    {
+      "id": 4,
+      "image": "https://www.galaxycine.vn/media/2020/9/25/robert-downey-jr-trying-to-revive-johnny-depps-career-with-this-film-001_1601018912431.jpg",
       "name": "Tom Cruise Sẽ Tham Gia Doctor Strange 2?",
       "content": "Nghe thú vị đấy chứ, không biết “người hùng chạy” sẽ đảm nhiệm vai trò như thế nào nếu tham gia vào vũ trụ điện ảnh Marvel nhỉ?"
     }
@@ -228,19 +248,25 @@
   "promotion": [
     {
       "id": 1,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/16/300x450_1600243476498.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     },
     {
       "id": 2,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2019/12/9/300x450_1575874237175.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     },
     {
       "id": 3,
-      "image": "https://www.galaxycine.vn/media/2020/9/16/1135x660_1600243608135.jpg",
+      "image": "https://www.galaxycine.vn/media/2020/9/3/300x450_1599120288127.jpg",
+      "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
+      "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
+    },
+    {
+      "id": 4,
+      "image": "https://www.galaxycine.vn/media/2020/9/21/300x450_1600679166207.jpg",
       "name": "Đua Top Săn Vàng - Nhận Ưu Đãi Tiếp Sức Từ Galaxy Cinema",
       "content": "Cặp nhẫn Doji trị giá 20 TRIỆU VNĐ, Movie Voucher đủ xem tới hết năm và Combo đặc biệt chưa-từng-có-tại-Việt-Nam... Đó là những phần quà siêu giá trị sẽ dành cho các Stars chiến thắng cuộc chơi ĐUA TOP SĂN VÀNG - Top thành viên chi tiêu cao nhất, tích lũy được nhiều Stars nhất từ 01/07 tới 30/09."
     }
@@ -249,14 +275,14 @@
     {
       "id": 1,
       "image": "https://www.galaxycine.vn/media/2020/5/19/combo-1_1589871759174.jpg",
-      "name": "1 ly nước, 1 bắp",
-      "price": 77000
+      "title": "iCombo 1 Big",
+      "name": "1 ly nước, 1 bắp"
     },
     {
       "id": 2,
       "image": "https://www.galaxycine.vn/media/2020/5/19/combo-2_1589871763789.jpg",
-      "name": "2 ly nước, 1 bắp",
-      "price": 97000
+      "title": "iCombo 2 Big",
+      "name": "2 ly nước, 1 bắp"
     }
   ],
   "cinemas": [
@@ -265,78 +291,16 @@
       "name": "Galaxy 1",
       "session": [
         {
-          "id": 1,
+          "id": 11,
           "time": "10:00"
         },
         {
-          "id": 2,
+          "id": 12,
           "time": "11:00"
         },
         {
-          "id": 3,
+          "id": 13,
           "time": "12:00"
-        }
-      ],
-      "seats": [
-        {
-          "id": 1,
-          "codeSeat": "A01",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 2,
-          "codeSeat": "A02",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 3,
-          "codeSeat": "A03",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 4,
-          "codeSeat": "A04",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 5,
-          "codeSeat": "A05",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 6,
-          "codeSeat": "A06",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 7,
-          "codeSeat": "A07",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 8,
-          "codeSeat": "A08",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 9,
-          "codeSeat": "A09",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "id": 10,
-          "codeSeat": "A10",
-          "price": 75000,
-          "status": false
         }
       ]
     },
@@ -345,70 +309,140 @@
       "name": "Galaxy 2",
       "session": [
         {
-          "id": 1,
+          "id": 21,
           "time": "10:00"
         },
         {
-          "id": 2,
+          "id": 22,
           "time": "11:00"
         },
         {
-          "id": 3,
+          "id": 23,
           "time": "12:00"
         }
-      ],
-      "seats": [
-        {
-          "codeSeat": "A01",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A02",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A03",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A04",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A05",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A06",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A07",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A08",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A09",
-          "price": 75000,
-          "status": false
-        },
-        {
-          "codeSeat": "A10",
-          "price": 75000,
-          "status": false
-        }
       ]
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "codeSeat": "A01",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 2,
+      "codeSeat": "A02",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 3,
+      "codeSeat": "A03",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 4,
+      "codeSeat": "A04",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 5,
+      "codeSeat": "A05",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 6,
+      "codeSeat": "A06",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 7,
+      "codeSeat": "A07",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 8,
+      "codeSeat": "A08",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 9,
+      "codeSeat": "A09",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 10,
+      "codeSeat": "A10",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 11,
+      "codeSeat": "A11",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 12,
+      "codeSeat": "A12",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 13,
+      "codeSeat": "A13",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 14,
+      "codeSeat": "A14",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 15,
+      "codeSeat": "A15",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 16,
+      "codeSeat": "A16",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 17,
+      "codeSeat": "A17",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 18,
+      "codeSeat": "A18",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 19,
+      "codeSeat": "A19",
+      "price": 75000,
+      "status": false
+    },
+    {
+      "id": 20,
+      "codeSeat": "A20",
+      "price": 75000,
+      "status": false
     }
   ],
   "payment": [
@@ -423,32 +457,36 @@
   ],
   "tickets": [
     {
-      "id": 1,
-      "email": "quoc27690@gmail.com",
-      "movieImage": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "movieName": "Xứ sở phép thuật",
+      "payment": "cash",
+      "timeSet": "5-10-2020",
+      "movieName": "Jumanji: The Jungle",
       "movieCinema": "Galaxy 1",
-      "movieTime": "20:00",
-      "timeSet": "2019-08-05",
-      "count": 1,
-      "combo": ["1 ly nước, 1 bắp"],
-      "seats": ["A01"],
-      "total": 100000,
-      "payment": "Visa"
+      "movieTime": "12:00",
+      "movieImage": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_2.jpg",
+      "seat": [
+        "A01"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 77000,
+      "totalCombo2": 99000,
+      "email": "quoc@gmail.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "email": "quoc27690@gmail.com",
-      "movieImage": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "movieName": "Xứ sở phép thuật",
+      "payment": "cash",
+      "timeSet": "7-10-2020",
+      "movieName": "Jumanji: The Jungle",
       "movieCinema": "Galaxy 1",
-      "movieTime": "20:00",
-      "timeSet": "2019-08-05",
-      "count": 1,
-      "combo": ["1 ly nước, 1 bắp"],
-      "seats": ["A01"],
-      "total": 100000,
-      "payment": "Visa"
+      "movieTime": "12:00",
+      "movieImage": "http://demo.amytheme.com/movie/demo/single-cinema/wp-content/uploads/2019/04/img_2.jpg",
+      "seat": [
+        "A03"
+      ],
+      "totalTicket": 45000,
+      "totalCombo1": 77000,
+      "totalCombo2": 99000,
+      "email": "gt@gmail.com",
+      "id": 2
     }
   ]
 }

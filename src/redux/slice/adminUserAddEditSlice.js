@@ -1,59 +1,76 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import usersApi from "../../api/usersApi";
+
+export const postUser = createAsyncThunk("postUser", async (user) => {
+  const currentPostUser = await usersApi.postUser(user);
+  return currentPostUser;
+});
+
+export const getUser = createAsyncThunk("getUser", async (userId) => {
+  const currentGetUser = await usersApi.getUser(userId);
+  return currentGetUser;
+});
+
+export const putUser = createAsyncThunk("putUser", async ({ userId, user }) => {
+  const currentPutUser = await usersApi.putUser(userId, user);
+  return currentPutUser;
+});
 
 const adminUserAddEditSlice = createSlice({
   name: "adminUserAddEditSlice",
   initialState: {
-    name: "",
-    email: "",
-    password: "",
-    phone: "",
-    region: "",
-    birthday: "",
-    gender: "",
+    successError: "",
+    loading: false,
+    loadingGetUser: false,
+    error: "",
   },
-  reducers: {
-    getAll: (state, action) => {
-      state.name = action.payload.name;
-      state.email = action.payload.email;
-      state.password = action.payload.password;
-      state.phone = action.payload.phone;
-      state.region = action.payload.region;
-      state.birthday = action.payload.birthday;
-      state.gender = action.payload.gender;
+  reducers: {},
+  extraReducers: {
+    // post user
+    [postUser.pending]: (state) => {
+      state.loading = true;
     },
-    getName: (state, action) => {
-      state.name = action.payload;
+
+    [postUser.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loading = false;
     },
-    getEmail: (state, action) => {
-      state.email = action.payload;
+
+    [postUser.fulfilled]: (state, action) => {
+      state.successError = action.payload;
+      state.loading = false;
     },
-    getPassword: (state, action) => {
-      state.password = action.payload;
+
+    // put user
+    [putUser.pending]: (state) => {
+      state.loading = true;
     },
-    getPhone: (state, action) => {
-      state.phone = action.payload;
+
+    [putUser.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loading = false;
     },
-    getRegion: (state, action) => {
-      state.region = action.payload;
+
+    [putUser.fulfilled]: (state, action) => {
+      state.successError = action.payload;
+      state.loading = false;
     },
-    getBirthday: (state, action) => {
-      state.birthday = action.payload;
+
+    // get user
+    [getUser.pending]: (state) => {
+      state.loadingGetUser = true;
     },
-    getGender: (state, action) => {
-      state.gender = action.payload;
+
+    [getUser.rejected]: (state, action) => {
+      state.error = action.error;
+      state.loadingGetUser = false;
+    },
+
+    [getUser.fulfilled]: (state, action) => {
+      state.loadingGetUser = false;
     },
   },
 });
 
-const { reducer: userAddEditReducer, actions } = adminUserAddEditSlice;
-export const {
-  getAll,
-  getName,
-  getEmail,
-  getPassword,
-  getPhone,
-  getRegion,
-  getBirthday,
-  getGender,
-} = actions;
+const { reducer: userAddEditReducer } = adminUserAddEditSlice;
 export default userAddEditReducer;
