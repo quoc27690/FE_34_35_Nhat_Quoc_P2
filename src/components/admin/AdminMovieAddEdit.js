@@ -18,7 +18,6 @@ import {
   addMovie,
   updateMovie,
 } from "../../redux/slice/adminMoviesManagementSlice";
-import { randomNumber } from "../../utils/common";
 
 export default function AdminMovieAddEdit() {
   const { t } = useTranslation("common");
@@ -28,8 +27,6 @@ export default function AdminMovieAddEdit() {
   const history = useHistory();
 
   const dispatch = useDispatch();
-
-  const randomId = randomNumber(100000);
 
   const movieEdit = useSelector((state) =>
     state.movies.movies.find((e) => e.id === parseInt(movieId))
@@ -78,7 +75,7 @@ export default function AdminMovieAddEdit() {
     };
 
     if (!movieId) {
-      dispatch(addMovie({ ...newMovie, id: randomId }));
+      dispatch(addMovie(newMovie));
       await moviesApi.postMovie(newMovie);
     } else {
       dispatch(updateMovie(newMovie));

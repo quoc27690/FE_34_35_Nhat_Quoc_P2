@@ -5,8 +5,14 @@ import AdminRevenueManagement from "./components/admin/AdminRevenueManagement";
 import AdminTicketsManagement from "./components/admin/AdminTicketsManagement";
 import AdminUserAddEdit from "./components/admin/AdminUserAddEdit";
 import AdminUsersManagement from "./components/admin/AdminUsersManagement";
+import Register from "./components/pages/Register";
 
 const routers = [
+  {
+    path: "/register",
+    exact: true,
+    main: () => <Register />,
+  },
   {
     path: "/admin/moviesManagement",
     exact: true,
