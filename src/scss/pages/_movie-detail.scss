@@ -1,0 +1,18 @@
+.movie-detail {
+  padding-bottom: 100px;
+  &__grid {
+    @include grid(2fr 1fr);
+  }
+  &__title {
+    color: $color-main;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: $font-weight7;
+    margin-bottom: 30px;
+  }
+  &__btn {
+    float: right;
+    @include pt-pb(15px, 15px);
+    color: $color-white;
+  }
+}

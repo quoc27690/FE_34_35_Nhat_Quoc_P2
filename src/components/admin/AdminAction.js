@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import moviesApi from "../../api/moviesApi";
 import ticketsApi from "../../api/ticketsApi";
 import usersApi from "../../api/usersApi";
-import { removeMovie } from "../../redux/slice/adminMoviesManagementSlice";
+import { removeMovie } from "../../redux/slice/moviesSlice";
 import { removeTicket } from "../../redux/slice/adminTicketsManagementSlice";
 import { removeUser } from "../../redux/slice/adminUsersManagementSlice";
 

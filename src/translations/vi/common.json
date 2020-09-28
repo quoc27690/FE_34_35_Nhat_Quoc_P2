@@ -55,6 +55,116 @@
   },
 
   "headerTopBar": {
-    "search": "Tìm kiếm phim..."
+    "search": "Tìm kiếm phim...",
+    "register": "Đăng ký"
+  },
+
+  "menu": {
+    "home": "Trang chủ",
+    "buyTicket": "Mua vé",
+    "movie": "Phim",
+    "cinema": "Rạp",
+    "member": "Thành Viên"
+  },
+
+  "titleSection": {
+    "blog": "Nhật Kí",
+    "movie": "Phim",
+    "newest": "Mới nhất",
+    "new": "Mới",
+    "promotion": "Khuyến mãi"
+  },
+
+  "video": {
+    "videoPlay": "Xem video",
+    "bymoviak": "Bymoviak"
+  },
+
+  "widget": {
+    "description": "Rất hân hạnh được phục vụ các bạn !",
+
+    "introduce": "Giới thiệu",
+    "cinemaCorner": "Góc rạp chiếu phim",
+    "support": "Hỗ trợ",
+
+    "aboutUs": "Về chúng tôi",
+    "convenient": "Thuận tiện để sử dụng",
+    "regulation": "Quy chế hoạt động",
+    "privacyPolicy": "Chính sách bảo mật",
+    "movieGenre": "Thể loại phim",
+    "movieCommentary": "Bình luận phim",
+    "blogMovies": "Blog phim",
+    "movieMonth": "Phim tháng hay",
+    "address": "65 Yên Thế, Đà Nẵng",
+    "gmail": "abc@gmail.com",
+    "phone": "0123 456 789"
+  },
+
+  "breadcrumbs": {
+    "home": "Trang chủ",
+    "listMovie": "Danh sách phim",
+    "listDetails": "Chi tiết phim",
+    "buyTicket": "Chọn vé",
+    "chooseSeat": "Chọn ghế",
+    "pays": "Thanh toán"
+  },
+
+  "movieDetail": {
+    "minutes": "Phút",
+    "releaseDate": "Ngày phát hành",
+    "genre": "Thể loại",
+    "actor": "Diễn viên",
+    "director": "Đạo diễn",
+    "title": "Thời gian chiếu",
+    "continue": "Tiếp tục",
+    "pleaseChoose": "Xin chọn khung giờ"
+  },
+
+  "titleBooking": {
+    "chooseTiketFood": "CHỌN VÉ / MÓN ĂN",
+    "chooseSeats": "CHỌN GHẾ",
+    "choosePays": "VUI LÒNG THANH TOÁN"
+  },
+
+  "chooseTiket": {
+    "ticketType": "Loại Vé",
+    "combo": "Combo",
+    "number": "Số lượng",
+    "price": "Giá (VNĐ)",
+    "totalItem": "Tổng (VNĐ)",
+    "totalAllItems": "Tổng",
+    "adults": "Người lớn",
+    "ticket2D": "Vé 2D"
+  },
+
+  "buyTicket": {
+    "cinema": "Rạp:",
+    "screening": "Suất chiếu:",
+    "date": "Thời gian:",
+    "combo": "Combo:",
+    "seat": "Ghế:",
+    "total": "Tổng:",
+    "time": "Khung giờ:"
+  },
+
+  "chooseSeat": {
+    "screen": "Màn hình",
+    "selected": "Ghế đang chọn",
+    "sold": "Ghế đã bán",
+    "choose": "Có thể chọn",
+    "notchoose": "Không thể chọn"
+  },
+
+  "pays": {
+    "payments": "Thanh toán:",
+    "fullName": "Họ & tên:",
+    "email": "Email:",
+    "phone": "Số điện thoại:"
+  },
+
+  "button": {
+    "back": "Quay lại",
+    "pay": "Thanh Toán",
+    "continue": "Tiếp tục"
   }
 }

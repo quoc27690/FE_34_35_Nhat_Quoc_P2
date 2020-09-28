@@ -20,6 +20,7 @@
       border: 1px solid $bg-main;
       background-color: $color-search;
       overflow: scroll;
+      z-index: 999;
 
       li {
         @include mt-mb(5px, 0);
@@ -75,12 +76,24 @@
     margin-left: 20px;
 
     button {
+      padding: 0 10px;
+      font-size: $font-size-medium;
       color: $color-white;
-      padding-left: 20px;
-      margin-left: 3px;
-      border-left: 1px solid $color-white;
       background-color: transparent;
-
+      position: relative;
+      &:after {
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 1px;
+        height: 23px;
+        background-color: $bg-white;
+        position: absolute;
+      }
+      &:last-child:after {
+        display: none;
+      }
       &:first-child {
         border: none;
       }

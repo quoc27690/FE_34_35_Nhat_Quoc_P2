@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import authApi from "../../api/authApi";
 import { getAll, getEmail, getPassword } from "../../redux/slice/loginSlice";
+import HeaderMenu from "../partials/HeaderMenu";
 import HeaderTopBar from "../partials/HeaderTopBar";
 
 export default function Login() {
@@ -52,6 +53,7 @@ export default function Login() {
   return (
     <div>
       <HeaderTopBar />
+      <HeaderMenu />
       <div className="login">
         <div className="login__wrap">
           <div className="login__inner">
@@ -71,6 +73,9 @@ export default function Login() {
               />
               <button className="login__button--submit" type="submit">
                 {t("authentication.login")}
+              </button>
+              <button className="register__button--submit">
+                <Link to="/register">{t("authentication.register")}</Link>
               </button>
             </form>
           </div>

@@ -179,7 +179,10 @@ input {
 
 input,
 textarea {
-  background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));
+  background-image: -webkit-linear-gradient(
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0)
+  );
 }
 
 button,
@@ -220,7 +223,7 @@ input::-moz-focus-inner {
 }
 
 /* Repeatable Patterns
-  -------------------------------------------------------------- */
+-------------------------------------------------------------- */
 *,
 *:before,
 *:after {
@@ -414,6 +417,10 @@ input::-webkit-input-placeholder {
 .seperator {
   flex: 1 0;
   position: relative;
+  background: url("../../assets/images/line_title/01.png") repeat-x center;
+}
+.flat-title__color {
+  color: #fe7900;
 }
 .flat-title__color {
   color: #fe7900;

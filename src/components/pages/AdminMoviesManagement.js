@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { getMovies } from "../../redux/slice/adminMoviesManagementSlice";
+import { getMovies } from "../../redux/slice/moviesSlice";
 import AdminSlideBar from "../partials/AdminSlideBar";
 import HeaderTopBar from "../partials/HeaderTopBar";
 import AdminAction from "../admin/AdminAction";

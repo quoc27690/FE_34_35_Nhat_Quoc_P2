@@ -5,12 +5,15 @@ import AdminMoviesManagement from "./components/pages/AdminMoviesManagement";
 import AdminRevenueManagement from "./components/pages/AdminRevenueManagement";
 import AdminTicketsManagement from "./components/pages/AdminTicketsManagement";
 import AdminUsersManagement from "./components/pages/AdminUsersManagement";
+import ChooseTickets from "./components/pages/ChooseTickets";
 import Error404 from "./components/pages/Error404";
+import Home from "./components/pages/Home";
 import Login from "./components/pages/Login";
+import MovieDetail from "./components/pages/MovieDetail";
+import MovieList from "./components/pages/MovieList";
 import Register from "./components/pages/Register";
-import HeaderTopBar from "./components/partials/HeaderTopBar";
 
-const routersAdmin = [
+const routers = [
   {
     path: "/admin/moviesManagement",
     exact: true,
@@ -52,9 +55,24 @@ const routersAdmin = [
     main: () => <AdminUserAddEdit />,
   },
   {
+    path: "/choose-tickets",
+    exact: true,
+    main: () => <ChooseTickets />,
+  },
+  {
+    path: "/movie-detail/:movieId",
+    exact: true,
+    main: () => <MovieDetail />,
+  },
+  {
+    path: "/movies-list",
+    exact: true,
+    main: () => <MovieList />,
+  },
+  {
     path: "/",
     exact: true,
-    main: () => <HeaderTopBar />,
+    main: () => <Home />,
   },
   {
     path: "/login",
@@ -73,4 +91,4 @@ const routersAdmin = [
   },
 ];
 
-export default routersAdmin;
+export default routers;

@@ -3,11 +3,25 @@
 @import "./base/_placeholders";
 @import "./base/_global";
 
-@import "./layouts/_admin-slide-bar";
-@import "./layouts/_admin-management";
-@import "./layouts/_header-top-bar";
-
 @import "./pages/_admin";
 @import "./pages/_register";
 @import "./pages/_login";
 @import "./pages/_error404";
+@import "./pages/_movie-list";
+@import "./pages/_movie-detail";
+@import "./pages/_choose-ticket";
+
+@import "./layouts/_admin-slide-bar";
+@import "./layouts/_admin-management";
+@import "./layouts/_header-top-bar";
+@import "./layouts/_movie-video";
+@import "./layouts/_cinema";
+@import "./layouts/_header-menu";
+@import "./layouts/_slider";
+@import "./layouts/_breadcrumbs";
+@import "./layouts/_newest-movie";
+@import "./layouts/_frame-choose";
+@import "./layouts/_blog";
+@import "./layouts/_new-promotion";
+@import "./layouts/_movie-video";
+@import "./layouts/_footer";
