@@ -1,18 +1,16 @@
 import React from "react";
 import AdminMovieAddEdit from "./components/admin/AdminMovieAddEdit";
-import AdminMoviesManagement from "./components/admin/AdminMoviesManagement";
-import AdminRevenueManagement from "./components/admin/AdminRevenueManagement";
-import AdminTicketsManagement from "./components/admin/AdminTicketsManagement";
 import AdminUserAddEdit from "./components/admin/AdminUserAddEdit";
-import AdminUsersManagement from "./components/admin/AdminUsersManagement";
+import AdminMoviesManagement from "./components/pages/AdminMoviesManagement";
+import AdminRevenueManagement from "./components/pages/AdminRevenueManagement";
+import AdminTicketsManagement from "./components/pages/AdminTicketsManagement";
+import AdminUsersManagement from "./components/pages/AdminUsersManagement";
+import Error404 from "./components/pages/Error404";
+import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
+import HeaderTopBar from "./components/partials/HeaderTopBar";
 
-const routers = [
-  {
-    path: "/register",
-    exact: true,
-    main: () => <Register />,
-  },
+const routersAdmin = [
   {
     path: "/admin/moviesManagement",
     exact: true,
@@ -53,6 +51,26 @@ const routers = [
     exact: true,
     main: () => <AdminUserAddEdit />,
   },
+  {
+    path: "/",
+    exact: true,
+    main: () => <HeaderTopBar />,
+  },
+  {
+    path: "/login",
+    exact: true,
+    main: () => <Login />,
+  },
+  {
+    path: "/register",
+    exact: true,
+    main: () => <Register />,
+  },
+  {
+    path: "/*",
+    exact: true,
+    main: () => <Error404 />,
+  },
 ];
 
-export default routers;
+export default routersAdmin;

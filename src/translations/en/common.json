@@ -50,6 +50,11 @@
 
   "authentication": {
     "login": "Login",
-    "register": "Register"
+    "register": "Register",
+    "logout": "Log Out"
+  },
+
+  "headerTopBar": {
+    "search": "Search Movie..."
   }
 }

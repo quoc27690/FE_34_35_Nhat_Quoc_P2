@@ -1,9 +1,9 @@
 {
   "users": [
     {
+      "name": "quoc1",
       "email": "quoc@gmail.com",
-      "password": "$2a$10$9xpUtd8eTJVZW3gsLJI2EOchJPYoY7X7wGFhjsK.P.S1YmsQvzjzi",
-      "name": "quoc",
+      "password": "$2a$10$uOlsCvgfgg9YQWCqWpfi5e8qUE8TmW9Tr/OklPowhP15vyX0pwNvK",
       "phone": "123456789",
       "region": "Ho Chi Minh",
       "birthday": "2020-09-01",
@@ -31,54 +31,74 @@
       "id": 3
     },
     {
-      "email": "nhat@gmail.com",
-      "password": "$2a$10$djx8dDJHYNG5QwXHakafBuKbLnMEeLsxXYm41KPs9TdYhs58xuX7O",
-      "name": "nhat",
-      "phone": "123456789",
+      "email": "cb@gmail.com",
+      "password": "$2a$10$Oq2fNtJxUF6gwoSVw9vuO.2tK1pG0ZVayccquYCO7UildqrK3D9W2",
+      "name": "cb",
+      "phone": "123456",
       "region": "Ho Chi Minh",
       "birthday": "2020-09-10",
       "gender": "male",
       "id": 4
     },
     {
-      "email": "huy@gmail.com",
-      "password": "$2a$10$.UjQolHBKYKwmqlHHijLN.BpQmeuskX2yVNWMtVoH17qeQ7419vFm",
-      "name": "huy",
-      "phone": "123456789",
-      "region": "Da Nang",
-      "birthday": "2020-09-23",
+      "email": "aq@gmail.com",
+      "password": "$2a$10$EIukCUECOf8HboGTQHUSs.fcme/YZt7bCMfTEGwf9VCQ9h4G0.1UG",
+      "name": "aq",
+      "phone": "123456",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-09",
       "gender": "male",
       "id": 5
     },
     {
-      "email": "huy1@gmail.com",
-      "password": "$2a$10$rOVdFUWSXDKBC/luNLI0suYDJJQHeqbrd4sxPhY7Mn6OxHtYmOO6e",
-      "name": "huy1",
-      "phone": "123456789",
+      "email": "ty@gmail.com",
+      "password": "$2a$10$OwFpto6PfcfCmYWBjO59..7My7S.O0jFx5rj/OnsUMJec12bZUPiG",
+      "name": "ty",
+      "phone": "123456",
       "region": "Ho Chi Minh",
-      "birthday": "2020-09-30",
-      "gender": "male",
+      "birthday": "2020-09-02",
+      "gender": "Female",
       "id": 6
     },
     {
-      "email": "uk@gmail.com",
-      "password": "$2a$10$Cg1RsHtxrJUj5oQ.6FV3qu.9wjiEJIo/EfiGiX46SWqVwHyfZzLYS",
-      "name": "uk",
+      "email": "bn@gmail.com",
+      "password": "$2a$10$ClvToUM0nSPvandeK3ZW9uMFAliZZqg/xYucOrzUODTZvsey9SY4e",
+      "name": "bn",
       "phone": "123456",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-30",
+      "region": "Ha Noi",
+      "birthday": "2020-09-11",
       "gender": "male",
       "id": 7
     },
     {
-      "email": "et@gmail.com",
-      "password": "$2a$10$zgK7CbQuQsGbBah8SgsypuLdDUS2qQw336oORv48wg6zHXPXooi1q",
-      "name": "et",
+      "email": "gh@gmail.com",
+      "password": "$2a$10$kgeVCOFYaYoihx0EHbLake1yXZVdWRSzzc2pyLyN1LntiX.3WqhHC",
+      "name": "gh",
       "phone": "123456",
       "region": "Ho Chi Minh",
-      "birthday": "2020-09-22",
-      "gender": "male",
+      "birthday": "2020-09-10",
+      "gender": "Female",
       "id": 8
+    },
+    {
+      "email": "ru@gmail.com",
+      "password": "$2a$10$TTU3LU7PPEGqHvexZspuP.PYELAWsGZnrDd/Nc85OnGnhS2/qiBVu",
+      "name": "ru",
+      "phone": "123456",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-02",
+      "gender": "male",
+      "id": 9
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$LGHZ436hC/6cfYDyBwznxeKQVD9TUhprS1pbnbzlCphYK1.qKA5Ee",
+      "name": "admin",
+      "phone": "123456789",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-28",
+      "gender": "Male",
+      "id": 10
     }
   ],
   "slides": [
@@ -98,7 +118,7 @@
   "movies": [
     {
       "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
-      "name": "Xứ sở phép thuật",
+      "name": "phim1",
       "ratings": "51",
       "time": "97",
       "producer": "Rat Pack Filmproduktion",
@@ -106,6 +126,83 @@
       "actor": "Christian Berkel, Butz Ulrich Buse Director",
       "releaseDate": "2020-09-08",
       "id": 1
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim2",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 2
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim3",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 3
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim4",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 4
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim1",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 5
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim2",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 6
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim3",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 7
+    },
+    {
+      "image": "https://galaxycine.vn/media/2020/9/15/11_1600175675192.jpg",
+      "name": "phim4",
+      "ratings": "51",
+      "time": "97",
+      "producer": "Rat Pack Filmproduktion",
+      "type": "Phiêu Lưu, Gia Đình, Thần Thoại",
+      "actor": "Christian Berkel, Butz Ulrich Buse Director",
+      "releaseDate": "2020-09-08",
+      "id": 8
     }
   ],
   "blogs": [
@@ -334,12 +431,8 @@
       "movieTime": "20:00",
       "timeSet": "2019-08-05",
       "count": 1,
-      "combo": [
-        "1 ly nước, 1 bắp"
-      ],
-      "seats": [
-        "A01"
-      ],
+      "combo": ["1 ly nước, 1 bắp"],
+      "seats": ["A01"],
       "total": 100000,
       "payment": "Visa"
     },
@@ -352,12 +445,8 @@
       "movieTime": "20:00",
       "timeSet": "2019-08-05",
       "count": 1,
-      "combo": [
-        "1 ly nước, 1 bắp"
-      ],
-      "seats": [
-        "A01"
-      ],
+      "combo": ["1 ly nước, 1 bắp"],
+      "seats": ["A01"],
       "total": 100000,
       "payment": "Visa"
     }

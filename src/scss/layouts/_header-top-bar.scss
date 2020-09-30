@@ -1,13 +1,49 @@
 .topbar {
-  background-color: #000;
+  position: relative;
+  background-color: $color-black;
   padding: 10px 0;
+
   &__flex {
     @include flex($wrap: nowrap);
   }
+
   &__search {
     &--form {
       position: relative;
     }
+
+    ul {
+      position: absolute;
+      top: 100%;
+      width: 400px;
+      height: 300px;
+      border: 1px solid $bg-main;
+      background-color: $color-search;
+      overflow: scroll;
+
+      li {
+        @include mt-mb(5px, 0);
+
+        &:last-child {
+          @include mt-mb(5px, 5px);
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 80px;
+            @include ml-mr(15px, 0);
+          }
+
+          p {
+            @include ml-mr(15px, 0);
+          }
+        }
+      }
+    }
+
     button {
       width: 40px;
       height: 40px;
@@ -16,10 +52,12 @@
       right: 0;
       padding: 0;
       position: absolute;
+
       i {
         color: $color-white;
       }
     }
+
     input {
       width: 100%;
       min-width: 250px;
@@ -27,17 +65,20 @@
       padding: 0 40px 0 15px;
     }
   }
+
   &__dkris {
     display: flex;
   }
+
   &__language {
+    display: flex;
     margin-left: 20px;
 
     button {
       color: $color-white;
-      padding-left: 6px;
+      padding-left: 20px;
       margin-left: 3px;
-      border-left: 1px solid #fff;
+      border-left: 1px solid $color-white;
       background-color: transparent;
 
       &:first-child {
@@ -45,22 +86,26 @@
       }
     }
   }
+
   &__lr {
+    display: flex;
     a {
       font-size: 16px;
-      color: #fff;
+      color: $color-white;
       padding: 10px 20px;
       position: relative;
       border-radius: 36px;
       margin-left: 15px;
-      border: 1px solid #fff;
+      border: 1px solid $color-white;
+
       i {
         margin-right: 10px;
       }
+
       &:hover {
         color: $color-white;
-        background-color: #fe7900;
-        border: 1px solid #fe7900;
+        background-color: $bg-main;
+        border: 1px solid $bg-main;
       }
     }
   }

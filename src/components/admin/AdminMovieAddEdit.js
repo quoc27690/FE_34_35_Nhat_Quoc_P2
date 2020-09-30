@@ -14,10 +14,6 @@ import {
   getTime,
   getType,
 } from "../../redux/slice/adminMovieAddEditSlice";
-import {
-  addMovie,
-  updateMovie,
-} from "../../redux/slice/adminMoviesManagementSlice";
 
 export default function AdminMovieAddEdit() {
   const { t } = useTranslation("common");
@@ -75,10 +71,8 @@ export default function AdminMovieAddEdit() {
     };
 
     if (!movieId) {
-      dispatch(addMovie(newMovie));
       await moviesApi.postMovie(newMovie);
     } else {
-      dispatch(updateMovie(newMovie));
       await moviesApi.putMovie(movieId, newMovie);
     }
 

@@ -14,22 +14,9 @@ const adminUsersManagementSlice = createSlice({
     error: "",
   },
   reducers: {
-    addUser: (state, action) => {
-      const newUser = action.payload;
-      state.users.push(newUser);
-    },
-
     removeUser: (state, action) => {
       const removeUserId = action.payload;
       state.users = state.users.filter((e) => e.id !== removeUserId);
-    },
-
-    updateUser: (state, action) => {
-      const newUser = action.payload;
-      const newUserIndex = state.users.findIndex((e) => e.id === newUser.id);
-      if (newUserIndex >= 0) {
-        state.users[newUserIndex] = newUser;
-      }
     },
   },
   extraReducers: {
@@ -50,5 +37,5 @@ const adminUsersManagementSlice = createSlice({
 });
 
 const { reducer: usersReducer, actions } = adminUsersManagementSlice;
-export const { addUser, removeUser, updateUser } = actions;
+export const { removeUser } = actions;
 export default usersReducer;
