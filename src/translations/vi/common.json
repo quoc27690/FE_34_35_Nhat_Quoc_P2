@@ -46,5 +46,10 @@
     "hcm": "Hồ Chí Minh",
     "hn": "Hà Nội",
     "dn": "Đà Nẵng"
+  },
+
+  "authentication": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
   }
 }

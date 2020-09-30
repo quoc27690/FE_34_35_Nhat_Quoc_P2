@@ -1,24 +1,84 @@
 {
   "users": [
     {
+      "email": "quoc@gmail.com",
+      "password": "$2a$10$9xpUtd8eTJVZW3gsLJI2EOchJPYoY7X7wGFhjsK.P.S1YmsQvzjzi",
+      "name": "quoc",
+      "phone": "123456789",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-01",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "email": "thao@gmail.com",
+      "password": "$2a$10$dPMeqr1kEpSxC26QSPX9IOLEuMRgFqKCAcI0GNuWa1SjHdiYanQqe",
       "name": "thao",
-      "email": "quoc27690@gmail.com",
-      "password": "123",
-      "phone": "098123456",
-      "region": "Da Nang",
+      "phone": "123456789",
+      "region": "Ha Noi",
       "birthday": "2020-09-24",
-      "gender": "female",
+      "gender": "Female",
       "id": 2
     },
     {
-      "name": "LAM ANH QUOC",
-      "email": "QUOC27690@GMAIL.COM",
-      "password": "123",
-      "phone": "0772548486",
-      "region": "Ho Chi Minh",
-      "birthday": "2020-09-23",
+      "email": "tit@gmail.com",
+      "password": "$2a$10$vEarq36PdoSZFfY4y4kvROaa.oxKr5vJ8/URIS5Y1FtXsERrmvE.e",
+      "name": "tit",
+      "phone": "123456789",
+      "region": "Da Nang",
+      "birthday": "2020-09-25",
       "gender": "male",
       "id": 3
+    },
+    {
+      "email": "nhat@gmail.com",
+      "password": "$2a$10$djx8dDJHYNG5QwXHakafBuKbLnMEeLsxXYm41KPs9TdYhs58xuX7O",
+      "name": "nhat",
+      "phone": "123456789",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-10",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "email": "huy@gmail.com",
+      "password": "$2a$10$.UjQolHBKYKwmqlHHijLN.BpQmeuskX2yVNWMtVoH17qeQ7419vFm",
+      "name": "huy",
+      "phone": "123456789",
+      "region": "Da Nang",
+      "birthday": "2020-09-23",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "email": "huy1@gmail.com",
+      "password": "$2a$10$rOVdFUWSXDKBC/luNLI0suYDJJQHeqbrd4sxPhY7Mn6OxHtYmOO6e",
+      "name": "huy1",
+      "phone": "123456789",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-30",
+      "gender": "male",
+      "id": 6
+    },
+    {
+      "email": "uk@gmail.com",
+      "password": "$2a$10$Cg1RsHtxrJUj5oQ.6FV3qu.9wjiEJIo/EfiGiX46SWqVwHyfZzLYS",
+      "name": "uk",
+      "phone": "123456",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-30",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "email": "et@gmail.com",
+      "password": "$2a$10$zgK7CbQuQsGbBah8SgsypuLdDUS2qQw336oORv48wg6zHXPXooi1q",
+      "name": "et",
+      "phone": "123456",
+      "region": "Ho Chi Minh",
+      "birthday": "2020-09-22",
+      "gender": "male",
+      "id": 8
     }
   ],
   "slides": [

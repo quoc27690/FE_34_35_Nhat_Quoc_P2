@@ -1,8 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const HeaderTopBar = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation("common");
 
   return (
     <div className="topbar">
@@ -20,12 +21,15 @@ const HeaderTopBar = () => {
           </div>
           <div className="topbar__dkris">
             <div className="topbar__lr">
-              <button className="topbar__lr--login">
-                <i className="fa fa-user" aria-hidden="true"></i>Login
-              </button>
-              <button className="topbar__lr--register">
-                <i className="fa fa-user-plus" aria-hidden="true"></i>Register
-              </button>
+              <Link to="/login" className="topbar__lr--login">
+                <i className="fa fa-user" aria-hidden="true"></i>
+                {t("authentication.login")}
+              </Link>
+
+              <Link to="/register" className="topbar__lr--register">
+                <i className="fa fa-user-plus" aria-hidden="true"></i>
+                {t("authentication.register")}
+              </Link>
             </div>
             <div className="topbar__language">
               <button

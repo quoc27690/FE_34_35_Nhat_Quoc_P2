@@ -17,7 +17,6 @@ import {
   addUser,
   updateUser,
 } from "../../redux/slice/adminUsersManagementSlice";
-import { randomNumber } from "../../utils/common";
 
 export default function AdminUserAddEdit() {
   const { t } = useTranslation("common");
@@ -27,8 +26,6 @@ export default function AdminUserAddEdit() {
   const history = useHistory();
 
   const dispatch = useDispatch();
-
-  const randomId = randomNumber(100000);
 
   const userEdit = useSelector((state) =>
     state.users.users.find((e) => e.id === parseInt(userId))
@@ -49,7 +46,6 @@ export default function AdminUserAddEdit() {
       dispatch(getAll(userEdit));
     } else {
       const emptyUser = {
-        id: "",
         name: "",
         email: "",
         password: "",
@@ -75,7 +71,7 @@ export default function AdminUserAddEdit() {
     };
 
     if (!userId) {
-      dispatch(addUser({ ...newUser, id: randomId }));
+      dispatch(addUser(newUser));
       await usersApi.postUser(newUser);
     } else {
       dispatch(updateUser(newUser));
